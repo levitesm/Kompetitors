@@ -1,0 +1,64 @@
+{
+  "hr-tab": {
+    "general": {
+      "hr-rate": "Competitive rate",
+      "hr-spec": "HR workforce",
+      "hr-head": "Head of HR",
+      "hr-head-name": "Head of HR name",
+      "hr-head-linked-in": "Head of HR linkedIn page URL",
+      "recr-head": "Head of recruitment",
+      "recr-head-name": "Head of recruitment name",
+      "recr-head-linked-in": "Head of recruitment linkedIn page URL",
+      "hr-specialists-number": "HR specialists number",
+      "hr-recruiters-number": "Recruiters number",
+      "hr-flow": "Flow of the HR process",
+      "hr-interview": "Number of interviews",
+      "hr-time": "Average recruitment time",
+      "hr-details": "Details of the process",
+      "hr-more-options": "More options",
+      "hr-open-jobs": "See open job positions",
+      "hr-glassdoor-reviews": "See glassdoor reviews",
+      "hr-glassdoor-rating": "Glassdoor rating",
+      "hr-glassdoor-url": "Glassdoor URL",
+      "hr-viadeo-reviews": "See viadeo reviews",
+      "hr-viadeo-rating": "Viadeo rating",
+      "hr-viadeo-url": "Viadeo URL",
+      "recruitment": "Recruitment",
+      "recruiters-number": "Number of recruiters",
+      "employees-number": "Number of employees",
+      "new-employees-number": "Number of new employees",
+      "recruiters-efficiency": "Recruiters' efficiency",
+      "recruitment-tests": "Recruitment tests",
+      "technical-test": "Technical test",
+      "personality-test": "Personality test",
+      "english-test": "English fluency test",
+      "open-job-positions-url": "Open job positions URL",
+      "cooptation-premium-amount": "Cooptation premium amount",
+      "junior-salary": "Junior salary on hire",
+      "average-salary": "Average salary",
+      "average-contract-duration": "Average contract duration (in years)",
+      "hr-signing-incentives": "Signing incentives",
+      "hr-signing-incentives-hint": "(What was offered by the company during the process)",
+      "suggest-changes-employees": "Change the employee number"
+    },
+    "recruiters": {
+      "menu": "Recruiters",
+      "list": "View the recruiters",
+      "add": "Add a recruiter",
+      "fname": "Recruiter's first name",
+      "lname": "Recruiter's last name",
+      "url": "Recruiter's linkedIn page URL"
+    },
+    "typologies": {
+      "menu": "Typologies",
+      "name": "Typology name",
+      "year": "year",
+      "chart": "Employee distribution",
+      "table-header": "Workforce by type"
+    },
+    "employees": {
+      "menu": "Employees",
+      "no-info": "No information"
+    }
+  }
+}

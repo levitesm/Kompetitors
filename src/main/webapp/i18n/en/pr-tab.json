@@ -1,0 +1,31 @@
+{
+  "pr-tab": {
+    "google-alerts": {
+      "tab-name": "News",
+      "set-rss": "Edit Google Alerts feed",
+      "build-date": "Build date: ",
+      "not-found": "News not found",
+      "not-set": "Google Alerts RSS feed not set or incorrect",
+      "edit-header": "Edit Google Alerts RSS",
+      "feed": "Feed"
+    },
+    "statistics": {
+      "tab-name": "Statistics",
+      "marketing": "Marketing",
+      "linkedin": "LinkedIn",
+      "twitter": "Twitter",
+      "instagram": "Instagram",
+      "marketing-workforce": "Marketing workforce",
+      "marketing-budget": "Marketing budget",
+      "experience-feedback": "Number of Experience feedback sessions in a year",
+      "linkedin-subs": "Number of Linkedin subscribers",
+      "linkedin-engagement": "LinkedIn Engagement Rate",
+      "linkedin-post-week": "Linkedin posts per week",
+      "linkedin-post-day": "Linkedin posts per day",
+      "twitter-followers": "Number of twitter followers",
+      "twitter-posts-week": "Twitter posts per week",
+      "twitter-posts-day": "Twitter posts per day",
+      "instagram-followers": "Number of instagram followers"
+    }
+  }
+}

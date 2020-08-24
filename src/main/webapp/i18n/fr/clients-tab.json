@@ -1,0 +1,54 @@
+{
+  "clients-tab": {
+    "general": {
+      "client-name": "Nom du client",
+      "partners-since": "Partenaires depuis",
+      "agency": "Agence",
+      "client-industry": "Industrie du client",
+      "projects": "Projets",
+      "status": "Statut",
+      "ippons-client": "Client d'Ippon",
+      "last-update": "Dernière mise à jour",
+      "no-client": "Pas de client",
+      "add-new-client": "+ Ajouter un nouveau client",
+      "head-of-sales": "Directeur commercial",
+      "sales-manager-total": "Responsables commerciaux",
+      "total-competitive-rate-clients": "Taux concurrentiel",
+      "all-agencies-clients": "Clients du concurrent",
+      "add-client": "Ajouter un client",
+      "edit-sales-info": "Modifier les informations commerciales",
+      "pricing": "Tarification",
+      "project-type": "Type de projet"
+    },
+    "edit-sales": {
+      "pricing-type": "Type de tarification",
+      "head-of-sales-name": "Nom du directeur commercial",
+      "head-of-sales-linkedIn": "Page LinkedIn du directeur commercial"
+    },
+    "pricing": {
+      "menu": "Tarification",
+      "no-info": "Pas de tarification",
+      "emp-pricing": "Tarification des employés",
+      "role-name": "Nom du rôle",
+      "level": "Niveau",
+      "price": "Tarif",
+      "currency": "Devise",
+      "payment-type": "Type de paiement",
+      "last-update": "Dernière mise à jour",
+      "add-role": "Ajouter un rôle",
+      "add-pricing": "Ajouter une tarification",
+      "add-role-header": "Ajouter un rôle d'employé",
+      "add-employee-pricing-header": "Nouvelle tarification d'employé"
+    },
+    "industries": {
+      "menu": "Industries",
+      "header": {
+        "available": "Industries",
+        "competitor": "Industries des entreprises clientes"
+      },
+      "add-industry": "+ Ajouter une nouvelle industrie",
+      "add-industry-header": "Ajouter une nouvelle industrie",
+      "add-industry-name": "Nom :"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "results": {
+    "what": "What ?",
+    "where": "Where ?",
+    "search": "SEARCH",
+    "filter": "Filter: ",
+    "sort": "Sort: ",
+    "results": {
+      "singular-title": " result",
+      "plural-title": " results",
+      "agencies": "agencies",
+      "agency": "agency",
+      "employees": "employees",
+      "revenue": "revenue",
+      "total-competitive-rate": "Total competitive rate",
+      "tech-competitive-rate": "Technical competitive rate",
+      "in": "in",
+      "and": "and"
+    },
+    "options": {
+      "All": "All",
+      "+50M€": "+50M€",
+      "-50M€": "-50M€",
+      "Listed": "Listed",
+      "Transparent": "Transparent",
+      "Not transparent": "Not transparent",
+      "Independent": "Independent",
+      "Private": "Private",
+      "A-Z": "A-Z",
+      "Revenue": "Revenue",
+      "Agencies": "Agencies",
+      "Employees": "Employees",
+      "Glassdoor": "Glassdoor",
+      "Viadeo": "Viadeo"
+    }
+  }
+}

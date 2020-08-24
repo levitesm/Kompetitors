@@ -1,0 +1,23 @@
+{
+  "kompetitors2App": {
+    "techPartners": {
+      "home": {
+        "title": "Tech Partners",
+        "createLabel": "Создать новый Tech Partners",
+        "createOrEditLabel": "Создать или отредактировать Tech Partners",
+        "notFound": "No Tech Partners found"
+      },
+      "created": "Новый Tech Partners создан с идентификатором {{ param }}",
+      "updated": "Tech Partners обновлен с идентификатором {{ param }}",
+      "deleted": "Tech Partners удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Tech Partners {{ id }}?"
+      },
+      "detail": {
+        "title": "Tech Partners"
+      },
+      "value": "Value",
+      "competitor": "Competitor"
+    }
+  }
+}

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+
+    <changeSet id="20191120999999-add-competitor-id" author="balandin">
+        <addColumn tableName="tech_competancies">
+            <column name="competitor_id" type="bigint">
+                <constraints nullable="true"/>
+            </column>
+        </addColumn>
+        <addColumn tableName="tech_tools">
+            <column name="competitor_id" type="bigint">
+                <constraints nullable="true"/>
+            </column>
+        </addColumn>
+        <addColumn tableName="tech_services">
+            <column name="competitor_id" type="bigint">
+                <constraints nullable="true"/>
+            </column>
+        </addColumn>
+        <addColumn tableName="tech_partners">
+            <column name="competitor_id" type="bigint">
+                <constraints nullable="true"/>
+            </column>
+        </addColumn>
+        <addColumn tableName="tech_projects">
+            <column name="competitor_id" type="bigint">
+                <constraints nullable="true"/>
+            </column>
+        </addColumn>
+    </changeSet>
+
+    <changeSet id="20191120999999-update-competitor-id" author="balandin">
+        <sql>
+            update tech_competancies t set competitor_id = (select competitors_id from offices o where o.id = t.offices_id);
+            update tech_tools t set competitor_id = (select o.competitors_id from offices o where o.id = t.offices_id);
+            update tech_services t set competitor_id = (select o.competitors_id from offices o where o.id = t.offices_id);
+            update tech_partners t set competitor_id = (select o.competitors_id from offices o where o.id = t.offices_id);
+            update tech_projects t set competitor_id = (select o.competitors_id from offices o where o.id = t.offices_id);
+        </sql>
+    </changeSet>
+
+    <changeSet id="20191120999999-add-competitor-id-not-null" author="balandin">
+        <addNotNullConstraint tableName="tech_competancies" columnName="competitor_id"/>
+        <addNotNullConstraint tableName="tech_tools" columnName="competitor_id"/>
+        <addNotNullConstraint tableName="tech_services" columnName="competitor_id"/>
+        <addNotNullConstraint tableName="tech_partners" columnName="competitor_id"/>
+        <addNotNullConstraint tableName="tech_projects" columnName="competitor_id"/>
+    </changeSet>
+
+    <changeSet id="20191120999999-drop-office-id" author="balandin">
+        <dropColumn tableName="tech_competancies">
+            <column name="offices_id"/>
+        </dropColumn>
+        <dropColumn tableName="tech_tools">
+            <column name="offices_id"/>
+        </dropColumn>
+        <dropColumn tableName="tech_services">
+            <column name="offices_id"/>
+        </dropColumn>
+        <dropColumn tableName="tech_partners">
+            <column name="offices_id"/>
+        </dropColumn>
+        <dropColumn tableName="tech_projects">
+            <column name="offices_id"/>
+        </dropColumn>
+    </changeSet>
+
+    <changeSet id="20191120999999-add-constraints" author="balandin">
+        <addForeignKeyConstraint baseColumnNames="competitor_id"
+                                 baseTableName="tech_competancies"
+                                 constraintName="fk_tech_competancies_competitorss_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="competitors"/>
+        <addForeignKeyConstraint baseColumnNames="competitor_id"
+                                 baseTableName="tech_tools"
+                                 constraintName="fk_tech_tools_competitorss_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="competitors"/>
+        <addForeignKeyConstraint baseColumnNames="competitor_id"
+                                 baseTableName="tech_services"
+                                 constraintName="fk_tech_services_competitorss_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="competitors"/>
+        <addForeignKeyConstraint baseColumnNames="competitor_id"
+                                 baseTableName="tech_partners"
+                                 referencedColumnNames="id"
+                                 referencedTableName="competitors"
+                                 constraintName="fk_tech_partners_competitorss_id"/>
+        <addForeignKeyConstraint baseColumnNames="competitor_id"
+                                 baseTableName="tech_projects"
+                                 constraintName="fk_tech_projects_competitorss_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="competitors"/>
+    </changeSet>
+
+    <changeSet id="20191120999999-uniq-eliminate" author="balandin">
+        <sql>
+            create table tmp(value_id bigint not null, competitor_id bigint not null);
+
+            insert into tmp select value_id, competitor_id from tech_competancies group by value_id, competitor_id;
+            delete from tech_competancies;
+            insert into tech_competancies (id, value_id, competitor_id)
+            select nextval('sequence_generator'), value_id, competitor_id from tmp;
+            delete from tmp;
+
+            insert into tmp select value_id, competitor_id from tech_tools group by value_id, competitor_id;
+            delete from tech_tools;
+            insert into tech_tools (id, value_id, competitor_id)
+            select nextval('sequence_generator'), value_id, competitor_id from tmp;
+            delete from tmp;
+
+            insert into tmp select value_id, competitor_id from tech_services group by value_id, competitor_id;
+            delete from tech_services;
+            insert into tech_services (id, value_id, competitor_id)
+            select nextval('sequence_generator'), value_id, competitor_id from tmp;
+            delete from tmp;
+
+            insert into tmp select value_id, competitor_id from tech_partners group by value_id, competitor_id;
+            delete from tech_partners;
+            insert into tech_partners (id, value_id, competitor_id)
+            select nextval('sequence_generator'), value_id, competitor_id from tmp;
+            delete from tmp;
+
+            insert into tmp select value_id, competitor_id from tech_projects group by value_id, competitor_id;
+            delete from tech_projects;
+            insert into tech_projects (id, value_id, competitor_id)
+            select nextval('sequence_generator'), value_id, competitor_id from tmp;
+            drop table tmp;
+        </sql>
+    </changeSet>
+
+    <changeSet id="20191120999999-uniq-add-constraints" author="balandin">
+        <addUniqueConstraint tableName="tech_competancies" columnNames="competitor_id, value_id"/>
+        <addUniqueConstraint tableName="tech_tools" columnNames="competitor_id, value_id"/>
+        <addUniqueConstraint tableName="tech_services" columnNames="competitor_id, value_id"/>
+        <addUniqueConstraint tableName="tech_partners" columnNames="competitor_id, value_id"/>
+        <addUniqueConstraint tableName="tech_projects" columnNames="competitor_id, value_id"/>
+    </changeSet>
+
+</databaseChangeLog>

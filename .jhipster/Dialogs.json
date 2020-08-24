@@ -1,0 +1,58 @@
+{
+    "name": "Dialogs",
+    "fields": [
+        {
+            "fieldName": "section",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "topic",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "message",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "author",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "date",
+            "fieldType": "LocalDate"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "competitors",
+            "otherEntityRelationshipName": "dialogs",
+            "relationshipName": "competitors",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20191021123905",
+    "entityTableName": "dialogs",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": [
+        "Kompetitors2"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+  "confirm-modal": {
+    "confirmation": "Confirmation",
+    "confirm": "Confirmer",
+    "cancel": "Annuler",
+    "failed-save": "Erreur lors de la sauvegarde !"
+  }
+}

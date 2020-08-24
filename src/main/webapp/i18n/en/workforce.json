@@ -1,0 +1,24 @@
+{
+  "kompetitors2App": {
+    "workforce": {
+      "home": {
+        "title": "Workforces",
+        "createLabel": "Create a new Workforce",
+        "createOrEditLabel": "Create or edit a Workforce",
+        "notFound": "No Workforces found"
+      },
+      "created": "A new Workforce is created with identifier {{ param }}",
+      "updated": "A Workforce is updated with identifier {{ param }}",
+      "deleted": "A Workforce is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Workforce {{ id }}?"
+      },
+      "detail": {
+        "title": "Workforce"
+      },
+      "employeeNumber": "Employee Number",
+      "year": "Year",
+      "competitor": "Competitor"
+    }
+  }
+}

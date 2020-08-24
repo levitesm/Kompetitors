@@ -1,0 +1,11 @@
+{
+  "kompetitors2App": {
+    "Currency": {
+      "null": "",
+      "EUR": "EUR",
+      "USD": "USD",
+      "RUB": "RUB",
+      "CNY": "CNY"
+    }
+  }
+}

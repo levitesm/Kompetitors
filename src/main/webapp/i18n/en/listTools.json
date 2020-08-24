@@ -1,0 +1,22 @@
+{
+  "kompetitors2App": {
+    "listTools": {
+      "home": {
+        "title": "List Tools",
+        "createLabel": "Create a new List Tools",
+        "createOrEditLabel": "Create or edit a List Tools",
+        "notFound": "No List Tools found"
+      },
+      "created": "A new List Tools is created with identifier {{ param }}",
+      "updated": "A List Tools is updated with identifier {{ param }}",
+      "deleted": "A List Tools is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete List Tools {{ id }}?"
+      },
+      "detail": {
+        "title": "List Tools"
+      },
+      "value": "Value"
+    }
+  }
+}

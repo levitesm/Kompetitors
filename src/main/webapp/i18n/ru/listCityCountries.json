@@ -1,0 +1,22 @@
+{
+  "kompetitors2App": {
+    "listCityCountries": {
+      "home": {
+        "title": "List City Countries",
+        "createLabel": "Создать новый List City Countries",
+        "createOrEditLabel": "Создать или отредактировать List City Countries",
+        "notFound": "No List City Countries found"
+      },
+      "created": "Новый List City Countries создан с идентификатором {{ param }}",
+      "updated": "List City Countries обновлен с идентификатором {{ param }}",
+      "deleted": "List City Countries удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить List City Countries {{ id }}?"
+      },
+      "detail": {
+        "title": "List City Countries"
+      },
+      "value": "Value"
+    }
+  }
+}

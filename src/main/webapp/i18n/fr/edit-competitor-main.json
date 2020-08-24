@@ -1,0 +1,22 @@
+{
+  "edit-competitor-main": {
+    "logo": "Logo",
+    "select-logo": "Cliquez sur l'image pour choisir un fichier",
+    "established": "Date de fondation:",
+    "website": "Site internet:",
+    "last-year-revenue": "Last year revenue",
+    "updated-office": {
+      "agency": " agence",
+      "city": "Ville:",
+      "postal-code": "Code postal:",
+      "address": "Adresse:",
+      "phone": "Téléphone:",
+      "foundation": "Année de fondation:",
+      "employees": "Nombre d'employés:",
+      "consultants": "Nombre de consultants:",
+      "clients": "Nombre de clients:"
+    },
+    "failed-save": "Erreur lors de la sauvegarde !",
+    "save": "SAUVEGARDER"
+  }
+}

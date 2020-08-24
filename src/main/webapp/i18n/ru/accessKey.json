@@ -1,0 +1,23 @@
+{
+  "kompetitors2App": {
+    "accessKey": {
+      "home": {
+        "title": "Access Keys",
+        "createLabel": "Создать новый Access Key",
+        "createOrEditLabel": "Создать или отредактировать Access Key",
+        "notFound": "No Access Keys found"
+      },
+      "created": "Новый Access Key создан с идентификатором {{ param }}",
+      "updated": "Access Key обновлен с идентификатором {{ param }}",
+      "deleted": "Access Key удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Access Key {{ id }}?"
+      },
+      "detail": {
+        "title": "Access Key"
+      },
+      "name": "Name",
+      "description": "Description"
+    }
+  }
+}

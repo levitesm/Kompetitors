@@ -1,0 +1,71 @@
+{
+  "competitor": {
+    "back-button": "Back to results",
+    "all-agencies": "ALL AGENCIES",
+    "add-agency": "+ ADD AGENCY",
+    "add-company": "+ ADD A NEW COMPANY",
+    "top-main-section": {
+      "phone": "Phone: ",
+      "visit-group-website": "Visit group website",
+      "visit-company-website": "Visit company website",
+      "main-agency": "Main Agency"
+    },
+    "bottom-main-section": {
+      "clients": "Basic clients",
+      "revenue": "Revenue",
+      "employees": "Employees",
+      "consultants": "Consultants",
+      "suggest-changes": "Suggest changes"
+    },
+    "competitive-rate": "TOTAL COMPETITIVE RATE",
+    "bottom-menu": {
+      "legal": "LEGAL",
+      "finance": "FINANCE",
+      "clients": "CLIENTS",
+      "technologies": "TECHNOLOGIES",
+      "hr": "HR",
+      "networks": "PR & NETWORKS",
+      "info": {
+        "menu": "Information",
+        "title": "Info from Societe.com",
+        "not-found": "Info not found!",
+        "no-finance": "No Finance",
+        "no-clients": "No Clients for {0}",
+        "no-technologies": "No Technologies for {0}",
+        "no-hr": "No HR for {0}",
+        "blog-not-set": "Please set the Blog Feed URL",
+        "blog-error": "Error fetching content from Blog"
+      },
+      "dialogs": {
+        "menu": "Dialogs",
+        "no-dialogs": "No dialog for {0}",
+        "add-dialog": "+ Add a dialog",
+        "confirm-add-dialog": "Add this dialog",
+        "add-dialog-failure": "Could not add the dialog",
+        "add-cancel": "Cancel",
+        "back": "<- Back",
+        "new-topic": "New topic",
+        "new-comment": "New comment",
+        "commented-by": "Commented by",
+        "on-date": "on",
+        "at-time": " at ",
+        "comment": "Comment",
+        "add-comment": "+ Add new comment",
+        "confirm-add-comment": "Add",
+        "add-comment-failure": "Could not add the comment",
+        "quick": "Live report",
+        "for": "for"
+      }
+    },
+    "establishedIn": "Established in {0}",
+    "openedIn": "Opened in {0}",
+    "chips": {
+      "transparency": "Transparency",
+      "no-transparency": "No transparency",
+      "listed": "Listed",
+      "independent": "Independent",
+      "private-equity": "Private equity"
+    },
+    "confirm-delete": "Are you sure you want to delete company? If there are no other companies in this group, then group will be also deleted!"
+  }
+}

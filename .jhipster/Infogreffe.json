@@ -1,0 +1,181 @@
+{
+    "name": "Infogreffe",
+    "fields": [
+        {
+            "fieldName": "departement",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "ville",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "numDept",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "codeGreffe",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "dateImmatriculation",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "ca1",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "siren",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "ca2",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "formeJuridique",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "resultat3",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "resultat2",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "resultat1",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "ficheidentite",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "duree1",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "dateDePublication",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "statut",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "nic",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "codeApe",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "adresse",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "trancheCaMillesime3",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "denomination",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "duree2",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "effectif1",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "effectif3",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "effectif2",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "ca3",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "trancheCaMillesime1",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "duree3",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "trancheCaMillesime2",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "codePostal",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "dateDeClotureExercice1",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "dateDeClotureExercice3",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "dateDeClotureExercice2",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "libelleApe",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "greffe",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "millesime3",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "millesime2",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "millesime1",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "region",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "competitors",
+            "otherEntityRelationshipName": "infogreffe",
+            "relationshipName": "competitor",
+            "otherEntityField": "id",
+            "ownerSide": true
+        }
+    ],
+    "changelogDate": "20191029082231",
+    "entityTableName": "infogreffe",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

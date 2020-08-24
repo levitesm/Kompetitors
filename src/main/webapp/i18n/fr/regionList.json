@@ -1,0 +1,23 @@
+{
+  "kompetitors2App": {
+    "regionList": {
+      "home": {
+        "title": "RegionLists",
+        "createLabel": "Créer un nouveau Region List",
+        "createOrEditLabel": "Créer ou éditer un Region List",
+        "notFound": "Aucun Region List trouvé"
+      },
+      "created": "Un nouveau Region List a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Region List avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Region List avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Region List {{ id }} ?"
+      },
+      "detail": {
+        "title": "Region List"
+      },
+      "region": "Region",
+      "country": "Country"
+    }
+  }
+}

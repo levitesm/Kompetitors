@@ -1,0 +1,43 @@
+{
+  "kompetitors2App": {
+    "offices": {
+      "home": {
+        "title": "Offices",
+        "createLabel": "Créer un nouveau Offices",
+        "createOrEditLabel": "Créer ou éditer un Offices",
+        "notFound": "Aucun Offices trouvé"
+      },
+      "created": "Un nouveau Offices a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Offices avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Offices avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Offices {{ id }} ?"
+      },
+      "detail": {
+        "title": "Offices"
+      },
+      "name": "Name",
+      "address": "Address",
+      "phone": "Phone",
+      "post": "Post",
+      "cityAsText": "City As Text",
+      "numberEmployees": "Number Employees",
+      "numberConsultants": "Number Consultants",
+      "numberTechnicals": "Number Technicals",
+      "numberHR": "Number HR",
+      "numberClients": "Number Clients",
+      "established": "Established",
+      "isMainOffice": "Is Main Office",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "clients": "Clients",
+      "techCompetancies": "Tech Competancies",
+      "techPartners": "Tech Partners",
+      "techProjects": "Tech Projects",
+      "techServices": "Tech Services",
+      "techTools": "Tech Tools",
+      "city": "City",
+      "competitors": "Competitors"
+    }
+  }
+}

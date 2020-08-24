@@ -1,0 +1,55 @@
+{
+    "name": "People",
+    "fields": [
+        {
+            "fieldName": "fName",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "lName",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "title",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "linkedPage",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "isKey",
+            "fieldType": "Boolean"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "competitors",
+            "otherEntityRelationshipName": "people",
+            "relationshipName": "competitors",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20191021123924",
+    "entityTableName": "people",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": [
+        "Kompetitors2"
+    ]
+}

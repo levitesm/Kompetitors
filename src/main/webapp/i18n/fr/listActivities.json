@@ -1,0 +1,22 @@
+{
+  "kompetitors2App": {
+    "listActivities": {
+      "home": {
+        "title": "ListActivities",
+        "createLabel": "Créer un nouveau List Activities",
+        "createOrEditLabel": "Créer ou éditer un List Activities",
+        "notFound": "Aucun List Activities trouvé"
+      },
+      "created": "Un nouveau List Activities a été créé avec l'identifiant {{ param }}",
+      "updated": "Le List Activities avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le List Activities avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le List Activities {{ id }} ?"
+      },
+      "detail": {
+        "title": "List Activities"
+      },
+      "value": "Value"
+    }
+  }
+}

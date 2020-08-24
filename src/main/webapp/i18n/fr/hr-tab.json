@@ -1,0 +1,64 @@
+{
+  "hr-tab": {
+    "general": {
+      "hr-rate": "Taux concurrentiel",
+      "hr-spec": "Effectif RH",
+      "hr-head": "Chef des RH",
+      "hr-head-name": "Nom du chef des RH",
+      "hr-head-linked-in": "Page linkedIn du chef des RH",
+      "recr-head": "Chef du recrutement",
+      "recr-head-name": "Nom du chef du recrutement",
+      "recr-head-linked-in": "Page linkedIn du chef du recrutement",
+      "hr-specialists-number": "Nombre de spécialistes RH",
+      "hr-recruiters-number": "Nombre de recruteurs",
+      "hr-flow": "Flux du processus RH",
+      "hr-interview": "Nombre d'entretiens",
+      "hr-time": "Temps de recrutement moyen",
+      "hr-details": "Détails du processus",
+      "hr-more-options": "Plus d'options",
+      "hr-open-jobs": "Voir les postes vacants",
+      "hr-glassdoor-reviews": "Voir les critiques de glassdoor",
+      "hr-glassdoor-rating": "Note Glassdoor",
+      "hr-glassdoor-url": "URL Glassdoor",
+      "hr-viadeo-reviews": "Voir les avis sur viadeo",
+      "hr-viadeo-rating": "Note Viadeo",
+      "hr-viadeo-url": "URL Viadeo",
+      "recruitment": "Recrutement",
+      "recruiters-number": "Nombre de recruteurs",
+      "employees-number": "Nombre d'employés",
+      "new-employees-number": "Nombre de nouveaux employés",
+      "recruiters-efficiency": "Efficacité des recruteurs",
+      "recruitment-tests": "Tests de recrutement",
+      "technical-test": "Test technique",
+      "personality-test": "Test de personnalité",
+      "english-test": "Test d'Anglais",
+      "open-job-positions-url": "URL vers des propositions de poste",
+      "cooptation-premium-amount": "Montant de la prime de cooptation",
+      "junior-salary": "Salaire d'un junior à l'embauche",
+      "average-salary": "Salaire moyen",
+      "average-contract-duration": "Durée moyenne d'un contrat (en années)",
+      "hr-signing-incentives": "Incitations à la signature",
+      "hr-signing-incentives-hint": "(Ce qui a été offert par l'entreprise durant le processus)",
+      "suggest-changes-employees": "Modifier le nombre d'employés"
+    },
+    "recruiters": {
+      "menu": "Recruteurs",
+      "list": "Voir les recruteurs",
+      "add": "Ajouter un recruteur",
+      "fname": "Prénom du recruteur",
+      "lname": "Nom du recruteur",
+      "url": "Page LinkedIn du recruteur"
+    },
+    "typologies": {
+      "menu": "Typologies",
+      "name": "Nom de la typologie",
+      "year": "année",
+      "chart": "Répartition des employés par type",
+      "table-header": "Effectifs par type"
+    },
+    "employees": {
+      "menu": "Employés",
+      "no-info": "Aucune information"
+    }
+  }
+}

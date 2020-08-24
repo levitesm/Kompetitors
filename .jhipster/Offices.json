@@ -1,0 +1,127 @@
+{
+    "name": "Offices",
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "address",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "phone",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "post",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "cityAsText",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "numberEmployees",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "numberConsultants",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "numberTechnicals",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "numberHR",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "numberClients",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "established",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "isMainOffice",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "latitude",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "longitude",
+            "fieldType": "Double"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "clients",
+            "otherEntityRelationshipName": "offices",
+            "relationshipName": "clients"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "techCompetancies",
+            "otherEntityRelationshipName": "offices",
+            "relationshipName": "techCompetancies"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "techPartners",
+            "otherEntityRelationshipName": "offices",
+            "relationshipName": "techPartners"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "techProjects",
+            "otherEntityRelationshipName": "offices",
+            "relationshipName": "techProjects"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "techServices",
+            "otherEntityRelationshipName": "offices",
+            "relationshipName": "techServices"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "techTools",
+            "otherEntityRelationshipName": "offices",
+            "relationshipName": "techTools"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "listCities",
+            "otherEntityRelationshipName": "offices",
+            "relationshipName": "city",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "competitors",
+            "otherEntityRelationshipName": "offices",
+            "relationshipName": "competitors",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20191021123923",
+    "entityTableName": "offices",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": [
+        "Kompetitors2"
+    ],
+    "searchEngine": false,
+    "databaseType": "sql"
+}

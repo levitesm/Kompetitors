@@ -1,0 +1,22 @@
+{
+  "kompetitors2App": {
+    "listIndustries": {
+      "home": {
+        "title": "List Industries",
+        "createLabel": "Create a new List Industries",
+        "createOrEditLabel": "Create or edit a List Industries",
+        "notFound": "No List Industries found"
+      },
+      "created": "A new List Industries is created with identifier {{ param }}",
+      "updated": "A List Industries is updated with identifier {{ param }}",
+      "deleted": "A List Industries is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete List Industries {{ id }}?"
+      },
+      "detail": {
+        "title": "List Industries"
+      },
+      "value": "Value"
+    }
+  }
+}

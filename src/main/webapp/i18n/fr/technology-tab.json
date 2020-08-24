@@ -1,0 +1,28 @@
+{
+  "technology-tab": {
+    "information": {
+      "edit-title": "Modification des technologies",
+      "comp-rate": "Taux concurrentiel",
+      "tech-spec": "Spécialistes techniques",
+      "cto": "CTO",
+      "techCompetancies": "Compétences",
+      "techPractices": "Pratiques",
+      "techTools": "Services/Outils",
+      "techServices": "Services clients",
+      "techPartners": "Partenaires tech",
+      "techProjects": "Types de projets",
+      "name": "Nom",
+      "add-techCompetancies": "Ajouter une nouvelle compétence",
+      "add-techPractices": "Add new pratique",
+      "add-techTools": "Ajouter un nouveau service ou outil",
+      "add-techServices": "Ajouter un nouveau service client",
+      "add-techPartners": "Ajouter un nouveau partenaire",
+      "add-techProjects": "Ajouter un nouveau type de projet",
+      "cto-head-edit": "Modifier les informations techniques",
+      "cto-head-fname": "Prénom du CTO",
+      "cto-head-lname": "Nom du CTO",
+      "cto-url": "Page LinkedIn du CTO",
+      "tech-spec-count": "Les spécialistes techniques comptent"
+    }
+  }
+}

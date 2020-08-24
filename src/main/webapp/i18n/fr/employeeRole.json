@@ -1,0 +1,22 @@
+{
+  "kompetitors2App": {
+    "employeeRole": {
+      "home": {
+        "title": "EmployeeRoles",
+        "createLabel": "Créer un nouveau Employee Role",
+        "createOrEditLabel": "Créer ou éditer un Employee Role",
+        "notFound": "Aucun Employee Role trouvé"
+      },
+      "created": "Un nouveau Employee Role a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Employee Role avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Employee Role avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Employee Role {{ id }} ?"
+      },
+      "detail": {
+        "title": "Employee Role"
+      },
+      "name": "Name"
+    }
+  }
+}

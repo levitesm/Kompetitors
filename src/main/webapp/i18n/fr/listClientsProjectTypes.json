@@ -1,0 +1,22 @@
+{
+  "kompetitors2App": {
+    "listClientsProjectTypes": {
+      "home": {
+        "title": "ListClientsProjectTypes",
+        "createLabel": "Créer un nouveau List Clients Project Types",
+        "createOrEditLabel": "Créer ou éditer un List Clients Project Types",
+        "notFound": "Aucun List Clients Project Types trouvé"
+      },
+      "created": "Un nouveau List Clients Project Types a été créé avec l'identifiant {{ param }}",
+      "updated": "Le List Clients Project Types avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le List Clients Project Types avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le List Clients Project Types {{ id }} ?"
+      },
+      "detail": {
+        "title": "List Clients Project Types"
+      },
+      "value": "Value"
+    }
+  }
+}

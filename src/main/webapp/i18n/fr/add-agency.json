@@ -1,0 +1,16 @@
+{
+  "add-agency": {
+    "new-agency": "Ajouter une agence",
+    "edit-agency": "Modifier l'agence",
+    "city": "Ville:",
+    "postal-code": "Code postal:",
+    "address": "Adresse:",
+    "phone": "Téléphone:",
+    "foundation": "Année de création:",
+    "employees": "Nombre d'employés:",
+    "consultants": "Nombre de consultants:",
+    "clients": "Nombre de clients:",
+    "save": "SAUVEGARDER",
+    "save-failed": "Erreur lors de la sauvegarde !"
+  }
+}

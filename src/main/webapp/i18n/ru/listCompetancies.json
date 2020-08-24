@@ -1,0 +1,22 @@
+{
+  "kompetitors2App": {
+    "listCompetancies": {
+      "home": {
+        "title": "List Competancies",
+        "createLabel": "Создать новый List Competancies",
+        "createOrEditLabel": "Создать или отредактировать List Competancies",
+        "notFound": "No List Competancies found"
+      },
+      "created": "Новый List Competancies создан с идентификатором {{ param }}",
+      "updated": "List Competancies обновлен с идентификатором {{ param }}",
+      "deleted": "List Competancies удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить List Competancies {{ id }}?"
+      },
+      "detail": {
+        "title": "List Competancies"
+      },
+      "value": "Value"
+    }
+  }
+}

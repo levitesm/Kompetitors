@@ -1,0 +1,31 @@
+{
+  "pr-tab": {
+    "google-alerts": {
+      "tab-name": "Nouvelles",
+      "set-rss": "Modifier le flux d'alertes Google",
+      "build-date": "Date de construction: ",
+      "not-found": "Nouvelles non trouvées",
+      "not-set": "Flux RSS des alertes Google non défini ou incorrect",
+      "edit-header": "Modifier les alertes Google RSS",
+      "feed": "Feed"
+    },
+    "statistics": {
+      "tab-name": "Statistiques",
+      "marketing": "Commercialisation",
+      "linkedin": "LinkedIn",
+      "twitter": "Twitter",
+      "instagram": "Instagram",
+      "marketing-workforce": "Effectif marketing",
+      "marketing-budget": "Budget marketing",
+      "experience-feedback": "Nombre de REX clients dans l'année",
+      "linkedin-subs": "Nombre d'abonnés Linkedin",
+      "linkedin-engagement": "Taux d'engagement Linkedin",
+      "linkedin-post-week": "Publications par semaine Linkedin",
+      "linkedin-post-day": "Publications par jour Linkedin",
+      "twitter-followers": "Nombre d'abonnés Twitter",
+      "twitter-posts-week": "Publications par semaine Twitter",
+      "twitter-posts-day": "Publications par jour Twitter",
+      "instagram-followers": "Nombre d'abonnés Instagram"
+    }
+  }
+}

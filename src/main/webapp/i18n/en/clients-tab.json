@@ -1,0 +1,54 @@
+{
+  "clients-tab": {
+    "general": {
+      "client-name": "Client name",
+      "partners-since": "Partners since",
+      "agency": "Agency",
+      "client-industry": "Client industry",
+      "projects": "Projects",
+      "status": "Status",
+      "ippons-client": "Ippon's client",
+      "last-update": "Last update",
+      "no-client": "No client",
+      "add-new-client": "+ Add a new client",
+      "head-of-sales": "Head of sales",
+      "sales-manager-total": "Sales manager",
+      "total-competitive-rate-clients": "Competitive rate",
+      "all-agencies-clients": "Clients of the competitor",
+      "add-client": "Add client",
+      "edit-sales-info": "Edit sales information",
+      "pricing": "Pricing",
+      "project-type": "Project type"
+    },
+    "edit-sales": {
+      "pricing-type": "Pricing Type",
+      "head-of-sales-name": "Head of sales name",
+      "head-of-sales-linkedIn": "Head of sales LinkedIn page"
+    },
+    "pricing": {
+      "menu": "Pricing",
+      "no-info": "No pricing",
+      "emp-pricing": "Employee pricing",
+      "role-name": "Role name",
+      "level": "Level",
+      "price": "Price",
+      "currency": "Currency",
+      "payment-type": "Payment type",
+      "last-update": "Last update",
+      "add-role": "Add role",
+      "add-pricing": "Add pricing",
+      "add-role-header": "Add employee role",
+      "add-employee-pricing-header": "Add employee pricing"
+    },
+    "industries": {
+      "menu": "Industries",
+      "header": {
+        "available": "Industries",
+        "competitor": "Company clients' industries"
+      },
+      "add-industry": "+ Add a new industry",
+      "add-industry-header": "Add a new industry",
+      "add-industry-name": "Name :"
+    }
+  }
+}

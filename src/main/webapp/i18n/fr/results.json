@@ -1,0 +1,37 @@
+{
+  "results": {
+    "what": "Quoi ?",
+    "where": "Où ?",
+    "search": "RECHERCHER",
+    "filter": "Filtre: ",
+    "sort": "Trier: ",
+    "results": {
+      "singular-title": " résultat",
+      "plural-title": " résultats",
+      "agencies": "agences",
+      "agency": "agence",
+      "employees": "employés",
+      "revenue": "revenu",
+      "total-competitive-rate": "Compétitivité totale",
+      "tech-competitive-rate": "Compétitivité technique",
+      "in": "à",
+      "and": "et"
+    },
+    "options": {
+      "All": "Toutes",
+      "+50M€": "+50M€",
+      "-50M€": "-50M€",
+      "Listed": "En bourse",
+      "Transparent": "Transparence",
+      "Not transparent": "Pas de transparence",
+      "Independent": "Indépendants",
+      "Private": "Capital privé",
+      "A-Z": "A-Z",
+      "Revenue": "Revenu",
+      "Agencies": "Agences",
+      "Employees": "Employés",
+      "Glassdoor": "Glassdoor",
+      "Viadeo": "Viadeo"
+    }
+  }
+}

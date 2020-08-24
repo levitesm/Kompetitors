@@ -1,0 +1,24 @@
+{
+  "kompetitors2App": {
+    "workforce": {
+      "home": {
+        "title": "Workforces",
+        "createLabel": "Создать новый Workforce",
+        "createOrEditLabel": "Создать или отредактировать Workforce",
+        "notFound": "No Workforces found"
+      },
+      "created": "Новый Workforce создан с идентификатором {{ param }}",
+      "updated": "Workforce обновлен с идентификатором {{ param }}",
+      "deleted": "Workforce удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Workforce {{ id }}?"
+      },
+      "detail": {
+        "title": "Workforce"
+      },
+      "employeeNumber": "Employee Number",
+      "year": "Year",
+      "competitor": "Competitor"
+    }
+  }
+}

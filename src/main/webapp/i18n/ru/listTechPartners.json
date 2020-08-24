@@ -1,0 +1,23 @@
+{
+  "kompetitors2App": {
+    "listTechPartners": {
+      "home": {
+        "title": "List Tech Partners",
+        "createLabel": "Создать новый List Tech Partners",
+        "createOrEditLabel": "Создать или отредактировать List Tech Partners",
+        "notFound": "No List Tech Partners found"
+      },
+      "created": "Новый List Tech Partners создан с идентификатором {{ param }}",
+      "updated": "List Tech Partners обновлен с идентификатором {{ param }}",
+      "deleted": "List Tech Partners удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить List Tech Partners {{ id }}?"
+      },
+      "detail": {
+        "title": "List Tech Partners"
+      },
+      "value": "Value",
+      "image": "Image"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <!--
+        Added the constraints for entity Offices.
+    -->
+    <changeSet id="20191021123923-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="city_id"
+                                 baseTableName="offices"
+                                 constraintName="fk_offices_city_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="list_cities"/>
+
+        <addForeignKeyConstraint baseColumnNames="competitors_id"
+                                 baseTableName="offices"
+                                 constraintName="fk_offices_competitors_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="competitors"/>
+
+    </changeSet>
+</databaseChangeLog>

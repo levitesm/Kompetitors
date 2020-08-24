@@ -1,0 +1,60 @@
+{
+    "name": "Capital",
+    "fields": [
+        {
+            "fieldName": "competitorSiren",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "montant",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "devise",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "nbrParts",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "pourcentageDetentionPP",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "pourcentageDetentionPM",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "listed",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "privateCapital",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "independentC",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "independentE",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "old",
+            "fieldType": "Boolean"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20191112075842",
+    "entityTableName": "capital",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

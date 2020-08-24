@@ -1,0 +1,22 @@
+{
+  "edit-competitor-main": {
+    "logo": "Logo",
+    "select-logo": "Click the image to select a file",
+    "established": "Established:",
+    "website": "Website:",
+    "last-year-revenue": "Last year revenue",
+    "updated-office": {
+      "agency": " agency",
+      "city": "City:",
+      "postal-code": "Postal code:",
+      "address": "Address:",
+      "phone": "Phone number:",
+      "foundation": "Foundation year:",
+      "employees": "Number of Employees:",
+      "consultants": "Number of Consultants:",
+      "clients": "Number of Clients:"
+    },
+    "failed-save": "Failed to save!",
+    "save": "SAVE"
+  }
+}

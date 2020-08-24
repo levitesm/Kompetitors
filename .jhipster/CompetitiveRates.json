@@ -1,0 +1,47 @@
+{
+    "name": "CompetitiveRates",
+    "fields": [
+        {
+            "fieldName": "totalRate",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "techRate",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "financeRate",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "clientsRate",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "hrRate",
+            "fieldType": "Double"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "competitors",
+            "otherEntityRelationshipName": "competitiveRates",
+            "relationshipName": "competitor",
+            "otherEntityField": "id",
+            "ownerSide": true
+        }
+    ],
+    "changelogDate": "20191021123903",
+    "entityTableName": "competitive_rates",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": [
+        "Kompetitors2"
+    ]
+}

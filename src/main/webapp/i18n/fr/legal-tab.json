@@ -1,0 +1,30 @@
+{
+  "legal-tab": {
+    "general": {},
+    "shareholders": {
+      "menu": "Actionnaires",
+      "all": "Tous les actionnaires",
+      "independent": "Actionnaires indépendants",
+      "private-equity-company": "Sociétés de capital-investissement",
+      "no-info": "Aucune d'information!",
+      "update": "Mettre à jour les actionnaires",
+      "last-update": "Dernière mise à jour",
+      "restricted-update": "Seulement Stéphane Nomis peut mettre à jour!",
+      "suggest-changes": "Suggérer des changements"
+    },
+    "representatives": {
+      "menu": "Mandataires",
+      "no-info": "Aucune d'information!",
+      "update": "Mettre à jour les mandataires",
+      "last-update": "Dernière mise à jour",
+      "restricted-update": "Seulement Stéphane Nomis peut mettre à jour!",
+      "suggest-changes": "Suggérer des changements"
+    },
+    "locations": {
+      "menu": "Localisations",
+      "suggest-changes": "Suggérer des changements",
+      "edit-locations-header": "Modifications des localisations",
+      "edit-locations-delete-tooltip": "Impossible de supprimer cette agence car elle possède {clientsNumber} clients"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+
+    <!--
+        Modify entity UserGroupRights.
+    -->
+    <changeSet id="20191030152732-1" author="mshonorov">
+        <dropColumn columnName="blocked_section_number"
+                    schemaName="public"
+                    tableName="user_group_rights"/>
+
+        <dropColumn columnName="blocked_type"
+                    schemaName="public"
+                    tableName="user_group_rights"/>
+
+        <addColumn schemaName="public"
+                   tableName="user_group_rights">
+            <column name="access_key_id" type="bigint">
+                <constraints nullable="true" />
+            </column>
+        </addColumn>
+    </changeSet>
+
+    <changeSet id="20191030152732-1-data" author="mshonorov" context="faker,prod">
+
+        <delete schemaName="public"
+                tableName="user_group_rights">
+        </delete>
+
+        <loadData
+            file="config/liquibase/fake-data/user_group_rights2.csv"
+            separator=";"
+            tableName="user_group_rights">
+            <column name="id" type="numeric"/>
+            <column name="user_group_name" type="string"/>
+            <column name="access_key_id" type="numeric"/>
+            <!-- jhipster-needle-liquibase-add-loadcolumn - JHipster (and/or extensions) can add load columns here, do not remove-->
+        </loadData>
+    </changeSet>
+
+</databaseChangeLog>

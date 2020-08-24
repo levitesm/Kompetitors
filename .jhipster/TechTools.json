@@ -1,0 +1,32 @@
+{
+    "name": "TechTools",
+    "fields": [],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "listTools",
+            "otherEntityRelationshipName": "techTools",
+            "relationshipName": "value",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "competitors",
+            "otherEntityRelationshipName": "techTools",
+            "relationshipName": "competitor",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20191021123931",
+    "entityTableName": "tech_tools",
+    "dto": "mapstruct",
+    "pagination": "no",
+    "service": "serviceClass",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": [
+        "Kompetitors2"
+    ]
+}

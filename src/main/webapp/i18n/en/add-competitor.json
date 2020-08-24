@@ -1,0 +1,17 @@
+{
+  "add-competitor": {
+    "name": "Group name:",
+    "companyName": "Company name:",
+    "siren": "Siren:",
+    "headquarter": {
+      "title": "Headquarter",
+      "city": "City:",
+      "postalcode": "Postal code:",
+      "address": "Address:",
+      "phone": "Phone number:",
+      "foundation": "Year of foundation:"
+    },
+    "save": "Save",
+    "country": "Country:"
+  }
+}

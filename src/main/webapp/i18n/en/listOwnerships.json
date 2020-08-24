@@ -1,0 +1,22 @@
+{
+  "kompetitors2App": {
+    "listOwnerships": {
+      "home": {
+        "title": "List Ownerships",
+        "createLabel": "Create a new List Ownerships",
+        "createOrEditLabel": "Create or edit a List Ownerships",
+        "notFound": "No List Ownerships found"
+      },
+      "created": "A new List Ownerships is created with identifier {{ param }}",
+      "updated": "A List Ownerships is updated with identifier {{ param }}",
+      "deleted": "A List Ownerships is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete List Ownerships {{ id }}?"
+      },
+      "detail": {
+        "title": "List Ownerships"
+      },
+      "value": "Value"
+    }
+  }
+}

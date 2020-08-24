@@ -1,0 +1,22 @@
+{
+  "kompetitors2App": {
+    "listProjectTypes": {
+      "home": {
+        "title": "List Project Types",
+        "createLabel": "Create a new List Project Types",
+        "createOrEditLabel": "Create or edit a List Project Types",
+        "notFound": "No List Project Types found"
+      },
+      "created": "A new List Project Types is created with identifier {{ param }}",
+      "updated": "A List Project Types is updated with identifier {{ param }}",
+      "deleted": "A List Project Types is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete List Project Types {{ id }}?"
+      },
+      "detail": {
+        "title": "List Project Types"
+      },
+      "value": "Value"
+    }
+  }
+}

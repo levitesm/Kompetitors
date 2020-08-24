@@ -1,0 +1,30 @@
+{
+  "legal-tab": {
+    "general": {},
+    "shareholders": {
+      "menu": "Shareholders",
+      "all": "All shareholders",
+      "independent": "Actionnaires indépendants",
+      "private-equity-company": "Private equity company",
+      "no-info": "No Information!",
+      "update": "Update shareholders",
+      "restricted-update": "Only Stephane Nomis can Update!",
+      "last-update": "Last update",
+      "suggest-changes": "Suggest changes"
+    },
+    "representatives": {
+      "menu": "Representatives",
+      "no-info": "No Information!",
+      "update": "Update representatives",
+      "restricted-update": "Only Stephane Nomis can Update!",
+      "last-update": "Last update",
+      "suggest-changes": "Suggest changes"
+    },
+    "locations": {
+      "menu": "Locations",
+      "suggest-changes": "Suggest changes",
+      "edit-locations-header": "Edit locations",
+      "edit-locations-delete-tooltip": "Impossible to delete this office because it has {clientsNumber} clients"
+    }
+  }
+}

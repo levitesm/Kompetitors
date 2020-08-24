@@ -1,0 +1,59 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "relationships": [
+        {
+            "relationshipName": "competitor",
+            "otherEntityName": "competitors",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id",
+            "otherEntityRelationshipName": "dashboardFinance"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "grossSales",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "grossSalesPerEmployee",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "ebit",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "netResult",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "workforce",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "year",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "grossSalesPerConsultant",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "averagePay",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "netResultPercent",
+            "fieldType": "Integer"
+        }
+    ],
+    "changelogDate": "20191217123453",
+    "dto": "mapstruct",
+    "searchEngine": false,
+    "service": "serviceClass",
+    "entityTableName": "dashboard_finance",
+    "databaseType": "sql",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no"
+}

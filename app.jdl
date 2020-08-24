@@ -1,0 +1,352 @@
+application {
+  config {
+    databaseType sql
+    devDatabaseType postgresql
+    enableHibernateCache true
+    enableSwaggerCodegen false
+    enableTranslation true
+    jhiPrefix jhi
+    languages [en, fr, ru]
+    messageBroker false
+    nativeLanguage en
+    packageName fr.ippon.kompetitors
+    packageFolder fr/ippon/kompetitors
+    prodDatabaseType postgresql
+    searchEngine false
+    serviceDiscoveryType false
+    skipClient false
+    skipServer false
+    testFrameworks []
+    websocket false
+    applicationType monolith
+    baseName Kompetitors2
+    serverPort 8080
+    authenticationType oauth2
+    cacheProvider ehcache
+    buildTool maven
+    clientPackageManager npm
+    skipUserManagement true
+    clientFramework angularX
+    useSass true
+    jhipsterVersion 6.4.1
+    clientTheme none
+    clientThemeVariant 
+    embeddableLaunchScript false
+    entitySuffix 
+    dtoSuffix DTO
+    otherModules [object Object]
+    blueprints [object Object]
+  }
+
+  entities AccessKey, AnnualAccount, AnnualAccountStatistics, Capital, Clients, ClientsProjects, CompetitiveRates, Competitors, Dialogs, Finance, GlobalGroups, HrInfo, Infogreffe, Legal, ListActivities, ListCities, ListCityCountries, ListClientsProjectTypes, ListCompetancies, ListCountries, ListIndustries, ListOwnerships, ListPricings, ListProjectTypes, ListServices, ListTechPartners, ListTools, Offices, People, PrInfo, Representatives, ShareHolders, SocieteMain, TechCompetancies, TechPartners, TechProjects, TechServices, TechTools, Updatehistory, UserGroupRights
+}
+
+entity AccessKey {
+  name String required unique,
+  description String
+}
+entity AnnualAccount {
+  siren String required,
+  year Integer required,
+  code String required,
+  value Long
+}
+entity AnnualAccountStatistics {
+  siren String required,
+  year Integer required,
+  code Integer,
+  message String,
+  modified Instant
+}
+entity Capital {
+  competitorSiren String,
+  montant Double,
+  devise String,
+  nbrParts Long,
+  pourcentageDetentionPP Double,
+  pourcentageDetentionPM Double,
+  listed Boolean,
+  privateCapital Boolean,
+  independentC Boolean,
+  independentE Boolean,
+  old Boolean
+}
+entity Clients {
+  officeName String,
+  name String required,
+  since String,
+  isIppon Boolean,
+  updateDate LocalDate
+}
+entity ClientsProjects {
+  status String
+}
+entity CompetitiveRates {
+  totalRate Double,
+  techRate Double,
+  financeRate Double,
+  clientsRate Double,
+  hrRate Double
+}
+entity Competitors {
+  name String,
+  webSite String,
+  countryPhone String
+}
+entity Dialogs {
+  section String required,
+  topic String required,
+  message String required,
+  author String required,
+  date LocalDate
+}
+entity Finance {
+  margin Double,
+  ebitda Double,
+  occupationRate Double,
+  revenue Double,
+  year Integer required
+}
+entity GlobalGroups {
+  name String required,
+  logo AnyBlob,
+  webSite String,
+  reference Boolean
+}
+entity HrInfo {
+  interviewsNumber Integer,
+  recrutmentTime String,
+  reviewedCvPercent Double,
+  hrDetails String,
+  vacanciesUrl String,
+  hrSpecialistsNumber Integer,
+  glassdoorRate Float,
+  viadeoRate Float,
+  glassdoorUrl String,
+  viadeoUrl String
+}
+entity Infogreffe {
+  departement String,
+  ville String,
+  numDept String,
+  codeGreffe String,
+  dateImmatriculation String,
+  ca1 String,
+  siren String,
+  ca2 String,
+  formeJuridique String,
+  resultat3 String,
+  resultat2 String,
+  resultat1 String,
+  ficheidentite String,
+  duree1 String,
+  dateDePublication String,
+  statut String,
+  nic String,
+  codeApe String,
+  adresse String,
+  trancheCaMillesime3 String,
+  denomination String,
+  duree2 String,
+  effectif1 String,
+  effectif3 String,
+  effectif2 String,
+  ca3 String,
+  trancheCaMillesime1 String,
+  duree3 String,
+  trancheCaMillesime2 String,
+  codePostal String,
+  dateDeClotureExercice1 String,
+  dateDeClotureExercice3 String,
+  dateDeClotureExercice2 String,
+  libelleApe String,
+  greffe String,
+  millesime3 String,
+  millesime2 String,
+  millesime1 String,
+  region String
+}
+entity Legal {
+  legalAddress String,
+  siren String,
+  greffe String,
+  founded LocalDate,
+  updateDate LocalDate,
+  legalForm String
+}
+entity ListActivities {
+  value String required minlength(3)
+}
+entity ListCities {
+  value String required minlength(3)
+}
+entity ListCityCountries {
+  value String required minlength(3)
+}
+entity ListClientsProjectTypes {
+  value String required minlength(3)
+}
+entity ListCompetancies {
+  value String required minlength(3)
+}
+entity ListCountries {
+  value String required minlength(3)
+}
+entity ListIndustries {
+  value String required minlength(3)
+}
+entity ListOwnerships {
+  value String required minlength(3)
+}
+entity ListPricings {
+  value String required minlength(3)
+}
+entity ListProjectTypes {
+  value String required minlength(3)
+}
+entity ListServices {
+  value String required minlength(3)
+}
+entity ListTechPartners {
+  value String required minlength(3)
+}
+entity ListTools {
+  value String required minlength(3)
+}
+entity Offices {
+  name String,
+  address String,
+  phone String,
+  post String,
+  cityAsText String,
+  numberEmployees Integer,
+  numberConsultants Integer,
+  numberTechnicals Integer,
+  numberHR Integer,
+  numberClients Integer,
+  established LocalDate,
+  isMainOffice Boolean
+}
+entity People {
+  fName String required,
+  lName String required,
+  title String required,
+  linkedPage String,
+  isKey Boolean
+}
+entity PrInfo {
+  fbNumber Integer,
+  twitterNumber Integer,
+  instaNumber Integer,
+  youNumer Integer,
+  linkedNumber Integer,
+  date LocalDate
+}
+entity Representatives {
+  competitorSiren String,
+  qualite String,
+  type String,
+  nom String,
+  prenom String,
+  nomUsage String,
+  dateNaissance String,
+  denominationPM String,
+  sirenPM String,
+  linkedInUrl String,
+  old Boolean
+}
+entity ShareHolders {
+  competitorSiren String,
+  typePersonne String,
+  denomination String,
+  civilite String,
+  nomPatronymique String,
+  nomUsage String,
+  prenom String,
+  libelleFormeJuridique String,
+  codeFormeJuridique String,
+  siren String,
+  codeApe String,
+  dateNaissance String,
+  nbrParts Long,
+  pourcentageDetention Double,
+  old Boolean
+}
+entity SocieteMain {
+  siren String,
+  deno String,
+  greffe String,
+  enseigne String,
+  psiret String,
+  adresse String,
+  codepostal String,
+  normcommune String,
+  commune String,
+  ape String,
+  apetexte String,
+  dateimmat String,
+  dcren String,
+  nationalite String,
+  formejur String,
+  capital String,
+  devisecap String,
+  typecap String,
+  url String
+}
+entity TechCompetancies
+entity TechPartners
+entity TechProjects
+entity TechServices
+entity TechTools
+entity Updatehistory {
+  type String,
+  siren String,
+  date LocalDate,
+  status String,
+  responce String
+}
+entity UserGroupRights {
+  userGroupName String required
+}
+relationship OneToOne {
+  CompetitiveRates{competitor} to Competitors,
+  HrInfo{competitor} to Competitors,
+  Infogreffe{competitor} to Competitors{infogreffe},
+  Legal{competitor} to Competitors,
+  SocieteMain{competitor} to Competitors{societeMain}
+}
+relationship OneToMany {
+  Offices{clients} to Clients{offices},
+  Clients{projects} to ClientsProjects{clients},
+  GlobalGroups{competitors} to Competitors{globalGroups},
+  Competitors{dialogs} to Dialogs{competitors},
+  Competitors{finance} to Finance{competitors},
+  Competitors{offices} to Offices{competitors},
+  Competitors{people} to People{competitors},
+  Competitors{pr} to PrInfo{competitors},
+  Offices{techCompetancies} to TechCompetancies{offices},
+  Offices{techPartners} to TechPartners{offices},
+  Offices{techProjects} to TechProjects{offices},
+  Offices{techServices} to TechServices{offices},
+  Offices{techTools} to TechTools{offices}
+}
+relationship ManyToOne {
+  Clients{industry} to ListIndustries,
+  ClientsProjects{projectType} to ListClientsProjectTypes,
+  Competitors{country} to ListCountries,
+  Legal{ownership} to ListOwnerships,
+  Legal{activity} to ListActivities,
+  Legal{pricing} to ListPricings,
+  ListCities{country} to ListCityCountries,
+  Offices{city} to ListCities,
+  TechCompetancies{value} to ListCompetancies,
+  TechPartners{value} to ListTechPartners,
+  TechProjects{value} to ListProjectTypes,
+  TechServices{value} to ListServices,
+  TechTools{value} to ListTools,
+  UserGroupRights{accessKey(name)} to AccessKey
+}
+
+service AccessKey, AnnualAccount, AnnualAccountStatistics with serviceClass
+dto AnnualAccount, AnnualAccountStatistics with mapstruct
+paginate AnnualAccount, AnnualAccountStatistics with pagination

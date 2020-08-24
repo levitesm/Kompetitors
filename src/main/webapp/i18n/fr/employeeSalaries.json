@@ -1,0 +1,25 @@
+{
+  "kompetitors2App": {
+    "employeeSalaries": {
+      "home": {
+        "title": "EmployeeSalaries",
+        "createLabel": "Créer un nouveau Employee Salaries",
+        "createOrEditLabel": "Créer ou éditer un Employee Salaries",
+        "notFound": "Aucun Employee Salaries trouvé"
+      },
+      "created": "Un nouveau Employee Salaries a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Employee Salaries avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Employee Salaries avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Employee Salaries {{ id }} ?"
+      },
+      "detail": {
+        "title": "Employee Salaries"
+      },
+      "seniority": "Seniority",
+      "salary": "Salary",
+      "updateDate": "Update Date",
+      "updatedBy": "Updated By"
+    }
+  }
+}

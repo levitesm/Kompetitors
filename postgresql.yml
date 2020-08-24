@@ -1,0 +1,12 @@
+version: '2'
+services:
+    kompetitors-postgresql:
+        image: postgres:10.4
+        volumes:
+            - ../pgdata/:/var/lib/postgresql/data/
+        environment:
+            - POSTGRES_USER=Kompetitors2
+            - POSTGRES_PASSWORD=Ipp()nSimp1ePassw0rd
+            - POSTGRES_DB=Kompetitors2
+        ports:
+            - 5432:5432

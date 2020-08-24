@@ -1,0 +1,33 @@
+{
+  "kompetitors2App": {
+    "capital": {
+      "home": {
+        "title": "Capitaux",
+        "createLabel": "Créer un nouveau Capital",
+        "createOrEditLabel": "Créer ou éditer un Capital",
+        "notFound": "Aucun Capital trouvé"
+      },
+      "created": "Un nouveau Capital a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Capital avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Capital avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Capital {{ id }} ?"
+      },
+      "detail": {
+        "title": "Capital"
+      },
+      "competitorSiren": "Siren du concurrent",
+      "montant": "Montant",
+      "devise": "Devise",
+      "nbrParts": "Nombre de parts",
+      "pourcentageDetentionPP": "Pourcentage de détention PP",
+      "pourcentageDetentionPM": "Pourcentage de détention PM",
+      "listed": "En bourse",
+      "privateCapital": "Capital privé",
+      "independent": "Indépendant",
+      "independentC": "Indépendant C",
+      "independentE": "Indépendant E",
+      "old": "Ancien"
+    }
+  }
+}

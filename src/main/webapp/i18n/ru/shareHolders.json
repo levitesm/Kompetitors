@@ -1,0 +1,36 @@
+{
+  "kompetitors2App": {
+    "shareHolders": {
+      "home": {
+        "title": "Share Holders",
+        "createLabel": "Создать новый Share Holders",
+        "createOrEditLabel": "Создать или отредактировать Share Holders",
+        "notFound": "No Share Holders found"
+      },
+      "created": "Новый Share Holders создан с идентификатором {{ param }}",
+      "updated": "Share Holders обновлен с идентификатором {{ param }}",
+      "deleted": "Share Holders удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Share Holders {{ id }}?"
+      },
+      "detail": {
+        "title": "Share Holders"
+      },
+      "competitorSiren": "Competitor Siren",
+      "typePersonne": "Type Personne",
+      "denomination": "Denomination",
+      "civilite": "Civilite",
+      "nomPatronymique": "Nom Patronymique",
+      "nomUsage": "Nom Usage",
+      "prenom": "Prenom",
+      "libelleFormeJuridique": "Libelle Forme Juridique",
+      "codeFormeJuridique": "Code Forme Juridique",
+      "siren": "Siren",
+      "codeApe": "Code Ape",
+      "dateNaissance": "Date Naissance",
+      "nbrParts": "Nbr Parts",
+      "pourcentageDetention": "Pourcentage Detention",
+      "old": "Old"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kompetitors2App": {
+    "listPricings": {
+      "home": {
+        "title": "ListPricings",
+        "createLabel": "Créer un nouveau List Pricings",
+        "createOrEditLabel": "Créer ou éditer un List Pricings",
+        "notFound": "Aucun List Pricings trouvé"
+      },
+      "created": "Un nouveau List Pricings a été créé avec l'identifiant {{ param }}",
+      "updated": "Le List Pricings avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le List Pricings avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le List Pricings {{ id }} ?"
+      },
+      "detail": {
+        "title": "List Pricings"
+      },
+      "value": "Value"
+    }
+  }
+}

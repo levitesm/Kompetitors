@@ -1,0 +1,22 @@
+{
+  "kompetitors2App": {
+    "listServices": {
+      "home": {
+        "title": "ListServices",
+        "createLabel": "Créer un nouveau List Services",
+        "createOrEditLabel": "Créer ou éditer un List Services",
+        "notFound": "Aucun List Services trouvé"
+      },
+      "created": "Un nouveau List Services a été créé avec l'identifiant {{ param }}",
+      "updated": "Le List Services avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le List Services avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le List Services {{ id }} ?"
+      },
+      "detail": {
+        "title": "List Services"
+      },
+      "value": "Value"
+    }
+  }
+}

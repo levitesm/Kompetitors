@@ -1,0 +1,32 @@
+{
+  "kompetitors2App": {
+    "representatives": {
+      "home": {
+        "title": "Representatives",
+        "createLabel": "Создать новый Representatives",
+        "createOrEditLabel": "Создать или отредактировать Representatives",
+        "notFound": "No Representatives found"
+      },
+      "created": "Новый Representatives создан с идентификатором {{ param }}",
+      "updated": "Representatives обновлен с идентификатором {{ param }}",
+      "deleted": "Representatives удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Representatives {{ id }}?"
+      },
+      "detail": {
+        "title": "Representatives"
+      },
+      "competitorSiren": "Competitor Siren",
+      "qualite": "Qualite",
+      "type": "Type",
+      "nom": "Nom",
+      "prenom": "Prenom",
+      "nomUsage": "Nom Usage",
+      "dateNaissance": "Date Naissance",
+      "denominationPM": "Denomination PM",
+      "sirenPM": "Siren PM",
+      "linkedInUrl": "Linked In Url",
+      "old": "Old"
+    }
+  }
+}

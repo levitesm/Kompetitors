@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <!--
+        Modify entity Offices.
+    -->
+    <changeSet id="20200204112301-add-fields" author="mshonorov">
+        <addColumn schemaName="public"
+                   tableName="pr_info">
+            <column name="marketing_workforce" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="marketing_budget" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="experience_feedback" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="linked_in_subscribers" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="linked_in_engage_rate" type="${floatType}">
+                <constraints nullable="true" />
+            </column>
+            <column name="linked_in_post_week" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="linked_in_post_day" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="twitter_followers" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="twitter_post_week" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="twitter_post_day" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="instagram_followers" type="bigint">
+                <constraints nullable="true" />
+            </column>
+        </addColumn>
+    </changeSet>
+
+    <changeSet id="20200204112301-add-data" author="jhipster" context="faker">
+        <loadData
+            file="config/liquibase/fake-data/pr_info2.csv"
+            separator=";"
+            tableName="pr_info">
+            <column name="id" type="numeric"/>
+            <column name="date" type="date"/>
+            <column name="marketing_workforce" type="numeric"/>
+            <column name="marketing_budget" type="numeric"/>
+            <column name="experience_feedback" type="numeric"/>
+            <column name="linked_in_subscribers" type="numeric"/>
+            <column name="linked_in_engage_rate" type="numeric"/>
+            <column name="linked_in_post_week" type="numeric"/>
+            <column name="linked_in_post_day" type="numeric"/>
+            <column name="twitter_followers" type="numeric"/>
+            <column name="twitter_post_week" type="numeric"/>
+            <column name="twitter_post_day" type="numeric"/>
+            <column name="instagram_followers" type="numeric"/>
+            <column name="competitors_id" type="numeric"/>
+        </loadData>
+    </changeSet>
+</databaseChangeLog>

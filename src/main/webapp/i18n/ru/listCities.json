@@ -1,0 +1,23 @@
+{
+  "kompetitors2App": {
+    "listCities": {
+      "home": {
+        "title": "List Cities",
+        "createLabel": "Создать новый List Cities",
+        "createOrEditLabel": "Создать или отредактировать List Cities",
+        "notFound": "No List Cities found"
+      },
+      "created": "Новый List Cities создан с идентификатором {{ param }}",
+      "updated": "List Cities обновлен с идентификатором {{ param }}",
+      "deleted": "List Cities удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить List Cities {{ id }}?"
+      },
+      "detail": {
+        "title": "List Cities"
+      },
+      "value": "Value",
+      "country": "Country"
+    }
+  }
+}

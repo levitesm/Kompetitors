@@ -1,0 +1,24 @@
+{
+  "kompetitors2App": {
+    "clientsProjects": {
+      "home": {
+        "title": "Clients Projects",
+        "createLabel": "Create a new Clients Projects",
+        "createOrEditLabel": "Create or edit a Clients Projects",
+        "notFound": "No Clients Projects found"
+      },
+      "created": "A new Clients Projects is created with identifier {{ param }}",
+      "updated": "A Clients Projects is updated with identifier {{ param }}",
+      "deleted": "A Clients Projects is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Clients Projects {{ id }}?"
+      },
+      "detail": {
+        "title": "Clients Projects"
+      },
+      "status": "Status",
+      "projectType": "Project Type",
+      "clients": "Clients"
+    }
+  }
+}

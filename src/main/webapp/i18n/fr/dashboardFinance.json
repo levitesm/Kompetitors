@@ -1,0 +1,31 @@
+{
+  "kompetitors2App": {
+    "dashboardFinance": {
+      "home": {
+        "title": "DashboardFinances",
+        "createLabel": "Créer un nouveau Dashboard Finance",
+        "createOrEditLabel": "Créer ou éditer un Dashboard Finance",
+        "notFound": "Aucun Dashboard Finance trouvé"
+      },
+      "created": "Un nouveau Dashboard Finance a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Dashboard Finance avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Dashboard Finance avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Dashboard Finance {{ id }} ?"
+      },
+      "detail": {
+        "title": "Dashboard Finance"
+      },
+      "grossSales": "Gross Sales",
+      "grossSalesPerEmployee": "Gross Sales Per Employee",
+      "ebit": "Ebit",
+      "netResult": "Net Result",
+      "workforce": "Workforce",
+      "year": "Year",
+      "grossSalesPerConsultant": "Gross Sales Per Consultant",
+      "averagePay": "Average Pay",
+      "netResultPercent": "Net Result Percent",
+      "competitor": "Competitor"
+    }
+  }
+}

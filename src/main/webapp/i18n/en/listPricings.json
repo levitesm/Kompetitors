@@ -1,0 +1,22 @@
+{
+  "kompetitors2App": {
+    "listPricings": {
+      "home": {
+        "title": "List Pricings",
+        "createLabel": "Create a new List Pricings",
+        "createOrEditLabel": "Create or edit a List Pricings",
+        "notFound": "No List Pricings found"
+      },
+      "created": "A new List Pricings is created with identifier {{ param }}",
+      "updated": "A List Pricings is updated with identifier {{ param }}",
+      "deleted": "A List Pricings is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete List Pricings {{ id }}?"
+      },
+      "detail": {
+        "title": "List Pricings"
+      },
+      "value": "Value"
+    }
+  }
+}

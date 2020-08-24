@@ -1,0 +1,23 @@
+{
+  "kompetitors2App": {
+    "techServices": {
+      "home": {
+        "title": "Tech Services",
+        "createLabel": "Создать новый Tech Services",
+        "createOrEditLabel": "Создать или отредактировать Tech Services",
+        "notFound": "No Tech Services found"
+      },
+      "created": "Новый Tech Services создан с идентификатором {{ param }}",
+      "updated": "Tech Services обновлен с идентификатором {{ param }}",
+      "deleted": "Tech Services удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Tech Services {{ id }}?"
+      },
+      "detail": {
+        "title": "Tech Services"
+      },
+      "value": "Value",
+      "competitor": "Competitor"
+    }
+  }
+}

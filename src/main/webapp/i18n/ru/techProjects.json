@@ -1,0 +1,23 @@
+{
+  "kompetitors2App": {
+    "techProjects": {
+      "home": {
+        "title": "Tech Projects",
+        "createLabel": "Создать новый Tech Projects",
+        "createOrEditLabel": "Создать или отредактировать Tech Projects",
+        "notFound": "No Tech Projects found"
+      },
+      "created": "Новый Tech Projects создан с идентификатором {{ param }}",
+      "updated": "Tech Projects обновлен с идентификатором {{ param }}",
+      "deleted": "Tech Projects удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Tech Projects {{ id }}?"
+      },
+      "detail": {
+        "title": "Tech Projects"
+      },
+      "value": "Value",
+      "competitor": "Competitor"
+    }
+  }
+}

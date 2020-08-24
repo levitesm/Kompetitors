@@ -1,0 +1,49 @@
+<template>
+    <div class="row justify-content-center">
+        <div class="col-8">
+            <div v-if="globalGroups">
+                <h2 class="jh-entity-heading"><span v-text="$t('kompetitors2App.globalGroups.detail.title')">GlobalGroups</span> {{globalGroups.id}}</h2>
+                <dl class="row jh-entity-details">
+                    <dt>
+                        <span v-text="$t('kompetitors2App.globalGroups.name')">Name</span>
+                    </dt>
+                    <dd>
+                        <span>{{globalGroups.name}}</span>
+                    </dd>
+                    <dt>
+                        <span v-text="$t('kompetitors2App.globalGroups.logo')">Logo</span>
+                    </dt>
+                    <dd>
+                        <div v-if="globalGroups.logo">
+                            <a v-on:click="openFile(globalGroups.logoContentType, globalGroups.logo)" v-text="$t('entity.action.open')">open</a>
+                            {{globalGroups.logoContentType}}, {{byteSize(globalGroups.logo)}}
+                        </div>
+                    </dd>
+                    <dt>
+                        <span v-text="$t('kompetitors2App.globalGroups.webSite')">Web Site</span>
+                    </dt>
+                    <dd>
+                        <span>{{globalGroups.webSite}}</span>
+                    </dd>
+                    <dt>
+                        <span v-text="$t('kompetitors2App.globalGroups.reference')">Reference</span>
+                    </dt>
+                    <dd>
+                        <span>{{globalGroups.reference}}</span>
+                    </dd>
+                </dl>
+                <button type="submit"
+                        v-on:click.prevent="previousState()"
+                        class="btn btn-info">
+                    <font-awesome-icon icon="arrow-left"></font-awesome-icon>&nbsp;<span v-text="$t('entity.action.back')"> Back</span>
+                </button>
+                <router-link v-if="globalGroups.id" :to="{name: 'GlobalGroupsEdit', params: {globalGroupsId: globalGroups.id}}" tag="button" class="btn btn-primary">
+                    <font-awesome-icon icon="pencil-alt"></font-awesome-icon>&nbsp;<span v-text="$t('entity.action.edit')"> Edit</span>
+                </router-link>
+            </div>
+        </div>
+    </div>
+</template>
+
+<script lang="ts" src="./global-groups-details.component.ts">
+</script>

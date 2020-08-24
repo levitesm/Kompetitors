@@ -1,0 +1,28 @@
+{
+  "kompetitors2App": {
+    "employeePricing": {
+      "home": {
+        "title": "Employee Pricings",
+        "createLabel": "Create a new Employee Pricing",
+        "createOrEditLabel": "Create or edit a Employee Pricing",
+        "notFound": "No Employee Pricings found"
+      },
+      "created": "A new Employee Pricing is created with identifier {{ param }}",
+      "updated": "A Employee Pricing is updated with identifier {{ param }}",
+      "deleted": "A Employee Pricing is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Employee Pricing {{ id }}?"
+      },
+      "detail": {
+        "title": "Employee Pricing"
+      },
+      "level": "Level",
+      "price": "Price",
+      "currency": "Currency",
+      "paymentType": "Payment Type",
+      "modified": "Modified",
+      "employeeRole": "Employee Role",
+      "competitor": "Competitor"
+    }
+  }
+}

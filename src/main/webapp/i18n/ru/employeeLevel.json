@@ -1,0 +1,11 @@
+{
+  "kompetitors2App": {
+    "EmployeeLevel": {
+      "null": "",
+      "JUNIOR": "JUNIOR",
+      "MIDDLE": "MIDDLE",
+      "SENIOR": "SENIOR",
+      "TRAINEE": "TRAINEE"
+    }
+  }
+}

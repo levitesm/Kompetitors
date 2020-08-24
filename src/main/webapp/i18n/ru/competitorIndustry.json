@@ -1,0 +1,23 @@
+{
+  "kompetitors2App": {
+    "competitorIndustry": {
+      "home": {
+        "title": "Competitor Industries",
+        "createLabel": "Создать новый Competitor Industry",
+        "createOrEditLabel": "Создать или отредактировать Competitor Industry",
+        "notFound": "No Competitor Industries found"
+      },
+      "created": "Новый Competitor Industry создан с идентификатором {{ param }}",
+      "updated": "Competitor Industry обновлен с идентификатором {{ param }}",
+      "deleted": "Competitor Industry удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Competitor Industry {{ id }}?"
+      },
+      "detail": {
+        "title": "Competitor Industry"
+      },
+      "competitor": "Competitor",
+      "industry": "Industry"
+    }
+  }
+}

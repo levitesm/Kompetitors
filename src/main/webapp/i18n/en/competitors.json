@@ -1,0 +1,32 @@
+{
+  "kompetitors2App": {
+    "competitors": {
+      "home": {
+        "title": "Competitors",
+        "createLabel": "Create a new Competitors",
+        "createOrEditLabel": "Create or edit a Competitors",
+        "notFound": "No Competitors found"
+      },
+      "created": "A new Competitors is created with identifier {{ param }}",
+      "updated": "A Competitors is updated with identifier {{ param }}",
+      "deleted": "A Competitors is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Competitors {{ id }}?"
+      },
+      "detail": {
+        "title": "Competitors"
+      },
+      "name": "Name",
+      "webSite": "Web Site",
+      "countryPhone": "Country Phone",
+      "dialogs": "Dialogs",
+      "finance": "Finance",
+      "offices": "Offices",
+      "people": "People",
+      "pr": "Pr",
+      "country": "Country",
+      "societeMain": "Societe Main",
+      "globalGroups": "Global Groups"
+    }
+  }
+}

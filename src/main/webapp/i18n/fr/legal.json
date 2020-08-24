@@ -1,0 +1,65 @@
+{
+  "kompetitors2App": {
+    "legal": {
+      "home": {
+        "title": "Enregistrement Légaux",
+        "createLabel": "Créer un nouvel enregistrement Légal",
+        "createOrEditLabel": "Créer ou éditer un enregistrement Légal",
+        "notFound": "Aucun enregistrement Légal trouvé"
+      },
+      "created": "Un nouvel enregistrement Légal a été créé avec l'identifiant {{ param }}",
+      "updated": "L'enregistrement Légal avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "L'enregistrement Légal avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer l'enregistrement Legal {{ id }} ?"
+      },
+      "detail": {
+        "title": "Légal"
+      },
+      "legalAddress": "Adresse légale",
+      "siren": "Siren",
+      "greffe": "Greffe",
+      "founded": "Fondé",
+      "updateDate": "Date de mise à jour",
+      "legalForm": "Forme juridique",
+      "competitor": "Concurrent",
+      "ownership": "Propriété",
+      "activity": "Activité",
+      "pricing": "Tarification",
+      "information": {
+        "info": "Info d'Infogreffe",
+        "no-info": "Aucune information!",
+        "name": "Dénomination",
+        "siren": "Siren",
+        "identity-sheet": "Fiche identité",
+        "registration-date": "Date d'immatriculation",
+        "legal-form": "Forme juridique",
+        "ape-code": "Code APE",
+        "ape-label": "Libellé APE",
+        "address": "Adresse",
+        "postal": "Code Postal",
+        "city": "Ville",
+        "department": "Département",
+        "department-number": "N° du département",
+        "region": "Région",
+        "fiscal-year-end": "Date de cloture de l'exercice",
+        "publication-month": "Mois de publication",
+        "month": {
+          "noinformation": "Pas d'information disponible",
+          "january": "Janvier",
+          "february": "Février",
+          "march": "Mars",
+          "april": "Avril",
+          "may": "Mai",
+          "june": "Juin",
+          "july": "Juillet",
+          "august": "Août",
+          "september": "Septembre",
+          "october": "Octobre",
+          "november": "Novembre",
+          "december": "Decembre"
+        }
+      }
+    }
+  }
+}

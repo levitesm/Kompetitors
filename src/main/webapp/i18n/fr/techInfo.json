@@ -1,0 +1,23 @@
+{
+  "kompetitors2App": {
+    "techInfo": {
+      "home": {
+        "title": "TechInfos",
+        "createLabel": "Créer un nouveau Tech Info",
+        "createOrEditLabel": "Créer ou éditer un Tech Info",
+        "notFound": "Aucun Tech Info trouvé"
+      },
+      "created": "Un nouveau Tech Info a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Tech Info avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Tech Info avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Tech Info {{ id }} ?"
+      },
+      "detail": {
+        "title": "Tech Info"
+      },
+      "techSpecialistsNumber": "Tech Specialists Number",
+      "competitor": "Competitor"
+    }
+  }
+}

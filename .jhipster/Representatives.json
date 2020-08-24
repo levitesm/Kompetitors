@@ -1,0 +1,60 @@
+{
+    "name": "Representatives",
+    "fields": [
+        {
+            "fieldName": "competitorSiren",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "qualite",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "type",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "nom",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "prenom",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "nomUsage",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "dateNaissance",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "denominationPM",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "sirenPM",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "linkedInUrl",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "old",
+            "fieldType": "Boolean"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20191108085224",
+    "entityTableName": "representatives",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

@@ -1,0 +1,37 @@
+{
+  "kompetitors2App": {
+    "hrInfo": {
+      "home": {
+        "title": "HrInfos",
+        "createLabel": "Créer un nouveau Hr Info",
+        "createOrEditLabel": "Créer ou éditer un Hr Info",
+        "notFound": "Aucun Hr Info trouvé"
+      },
+      "created": "Un nouveau Hr Info a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Hr Info avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Hr Info avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Hr Info {{ id }} ?"
+      },
+      "detail": {
+        "title": "Hr Info"
+      },
+      "interviewsNumber": "Interviews Number",
+      "recrutmentTime": "Recrutment Time",
+      "reviewedCvPercent": "Reviewed Cv Percent",
+      "hrDetails": "Hr Details",
+      "vacanciesUrl": "Vacancies Url",
+      "hrSpecialistsNumber": "Hr Specialists Number",
+      "glassdoorRate": "Glassdoor Rate",
+      "viadeoRate": "Viadeo Rate",
+      "glassdoorUrl": "Glassdoor Url",
+      "viadeoUrl": "Viadeo Url",
+      "cooptationPremiumAmount": "Cooptation Premium Amount",
+      "juniorSalary": "Junior Salary",
+      "averageSalary": "Average Salary",
+      "signingIncentives": "Signing Incentives",
+      "averageContractDuration": "Average Contract Duration",
+      "competitor": "Competitor"
+    }
+  }
+}

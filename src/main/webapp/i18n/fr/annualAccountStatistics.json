@@ -1,0 +1,26 @@
+{
+  "kompetitors2App": {
+    "annualAccountStatistics": {
+      "home": {
+        "title": "AnnualAccountStatistics",
+        "createLabel": "Créer un nouveau Annual Account Statistics",
+        "createOrEditLabel": "Créer ou éditer un Annual Account Statistics",
+        "notFound": "Aucun Annual Account Statistics trouvé"
+      },
+      "created": "Un nouveau Annual Account Statistics a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Annual Account Statistics avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Annual Account Statistics avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Annual Account Statistics {{ id }} ?"
+      },
+      "detail": {
+        "title": "Annual Account Statistics"
+      },
+      "siren": "Siren",
+      "year": "Year",
+      "code": "Code",
+      "message": "Message",
+      "modified": "Modified"
+    }
+  }
+}

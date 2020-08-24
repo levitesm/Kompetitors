@@ -1,0 +1,61 @@
+{
+  "kompetitors2App": {
+    "infogreffe": {
+      "home": {
+        "title": "Infogreffes",
+        "createLabel": "Créer un nouveau Infogreffe",
+        "createOrEditLabel": "Créer ou éditer un Infogreffe",
+        "notFound": "Aucun Infogreffe trouvé"
+      },
+      "created": "Un nouveau Infogreffe a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Infogreffe avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Infogreffe avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer l'Infogreffe {{ id }} ?"
+      },
+      "detail": {
+        "title": "Infogreffe"
+      },
+      "departement": "Département",
+      "ville": "Ville",
+      "numDept": "N° de département",
+      "codeGreffe": "Code Greffe",
+      "dateImmatriculation": "Date d'immatriculation",
+      "ca1": "CA 1",
+      "siren": "Siren",
+      "ca2": "CA 2",
+      "formeJuridique": "Forme juridique",
+      "resultat3": "Résultat 3",
+      "resultat2": "Résultat 2",
+      "resultat1": "Résultat 1",
+      "ficheidentite": "Fiche identite",
+      "duree1": "Durée 1",
+      "dateDePublication": "Date De Publication",
+      "statut": "Statut",
+      "nic": "NIC",
+      "codeApe": "Code APE",
+      "adresse": "Adresse",
+      "trancheCaMillesime3": "Tranche CA Millésime 3",
+      "denomination": "Dénomination",
+      "duree2": "Durée 2",
+      "effectif1": "Effectif 1",
+      "effectif3": "Effectif 3",
+      "effectif2": "Effectif 2",
+      "ca3": "CA 3",
+      "trancheCaMillesime1": "Tranche CA Millésime 1",
+      "duree3": "Durée 3",
+      "trancheCaMillesime2": "Tranche CA Millésime 2",
+      "codePostal": "Code Postal",
+      "dateDeClotureExercice1": "Date de cloture de l'exercice 1",
+      "dateDeClotureExercice3": "Date de cloture de l'exercice 3",
+      "dateDeClotureExercice2": "Date de cloture de l'exercice 2",
+      "libelleApe": "Libellé APE",
+      "greffe": "Greffe",
+      "millesime3": "Millésime 3",
+      "millesime2": "Millésime 2",
+      "millesime1": "Millésime 1",
+      "region": "Région",
+      "competitor": "Concurrent"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <changeSet id="20200127114101-1-data" author="mshonorov" context="faker,prod">
+
+        <loadData
+            file="config/liquibase/fake-data/access_key4.csv"
+            separator=";"
+            tableName="access_key">
+            <column name="id" type="numeric"/>
+            <column name="name" type="string"/>
+            <column name="description" type="string"/>
+        </loadData>
+    </changeSet>
+
+    <changeSet id="20200127114101-2-data" author="mshonorov" context="faker,prod">
+        <loadData
+            file="config/liquibase/fake-data/user_group_rights5.csv"
+            separator=";"
+            tableName="user_group_rights">
+            <column name="id" type="numeric"/>
+            <column name="user_group_name" type="string"/>
+            <column name="access_key_id" type="numeric"/>
+        </loadData>
+    </changeSet>
+
+</databaseChangeLog>

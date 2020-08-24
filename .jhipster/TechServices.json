@@ -1,0 +1,32 @@
+{
+    "name": "TechServices",
+    "fields": [],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "listServices",
+            "otherEntityRelationshipName": "techServices",
+            "relationshipName": "value",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "competitors",
+            "otherEntityRelationshipName": "techServices",
+            "relationshipName": "competitor",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20191021123930",
+    "entityTableName": "tech_services",
+    "dto": "mapstruct",
+    "pagination": "no",
+    "service": "serviceClass",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": [
+        "Kompetitors2"
+    ]
+}

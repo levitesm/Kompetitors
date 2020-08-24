@@ -1,0 +1,22 @@
+{
+  "kompetitors2App": {
+    "employeeType": {
+      "home": {
+        "title": "EmployeeTypes",
+        "createLabel": "Créer un nouveau Employee Type",
+        "createOrEditLabel": "Créer ou éditer un Employee Type",
+        "notFound": "Aucun Employee Type trouvé"
+      },
+      "created": "Un nouveau Employee Type a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Employee Type avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Employee Type avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Employee Type {{ id }} ?"
+      },
+      "detail": {
+        "title": "Employee Type"
+      },
+      "name": "Name"
+    }
+  }
+}

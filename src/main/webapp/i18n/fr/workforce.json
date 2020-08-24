@@ -1,0 +1,24 @@
+{
+  "kompetitors2App": {
+    "workforce": {
+      "home": {
+        "title": "Workforces",
+        "createLabel": "Créer un nouveau Workforce",
+        "createOrEditLabel": "Créer ou éditer un Workforce",
+        "notFound": "Aucun Workforce trouvé"
+      },
+      "created": "Un nouveau Workforce a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Workforce avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Workforce avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Workforce {{ id }} ?"
+      },
+      "detail": {
+        "title": "Workforce"
+      },
+      "employeeNumber": "Employee Number",
+      "year": "Year",
+      "competitor": "Competitor"
+    }
+  }
+}

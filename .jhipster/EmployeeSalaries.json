@@ -1,0 +1,32 @@
+{
+    "name": "EmployeeSalaries",
+    "fields": [
+        {
+            "fieldName": "seniority",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "salary",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "updateDate",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "updatedBy",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200203124245",
+    "entityTableName": "employee_salaries",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

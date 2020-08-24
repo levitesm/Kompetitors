@@ -1,0 +1,31 @@
+{
+  "kompetitors2App": {
+    "legal": {
+      "home": {
+        "title": "Legals",
+        "createLabel": "Создать новый Legal",
+        "createOrEditLabel": "Создать или отредактировать Legal",
+        "notFound": "No Legals found"
+      },
+      "created": "Новый Legal создан с идентификатором {{ param }}",
+      "updated": "Legal обновлен с идентификатором {{ param }}",
+      "deleted": "Legal удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Legal {{ id }}?"
+      },
+      "detail": {
+        "title": "Legal"
+      },
+      "legalAddress": "Legal Address",
+      "siren": "Siren",
+      "greffe": "Greffe",
+      "founded": "Founded",
+      "updateDate": "Update Date",
+      "legalForm": "Legal Form",
+      "competitor": "Competitor",
+      "ownership": "Ownership",
+      "activity": "Activity",
+      "pricing": "Pricing"
+    }
+  }
+}

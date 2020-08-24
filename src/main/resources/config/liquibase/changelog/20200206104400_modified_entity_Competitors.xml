@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+
+    <changeSet id="20200206104400-drop-competitor-urls" author="mshonorov">
+        <dropColumn tableName="competitors">
+            <column name="facebook_url"/>
+        </dropColumn>
+        <dropColumn tableName="competitors">
+            <column name="twitter_url"/>
+        </dropColumn>
+        <dropColumn tableName="competitors">
+            <column name="instagram_url"/>
+        </dropColumn>
+        <dropColumn tableName="competitors">
+            <column name="youtube_url"/>
+        </dropColumn>
+        <dropColumn tableName="competitors">
+            <column name="linkedin_url"/>
+        </dropColumn>
+        <dropColumn tableName="competitors">
+            <column name="github_url"/>
+        </dropColumn>
+        <dropColumn tableName="competitors">
+            <column name="blog_feed"/>
+        </dropColumn>
+        <dropColumn tableName="competitors">
+            <column name="google_alerts_feed"/>
+        </dropColumn>
+    </changeSet>
+</databaseChangeLog>

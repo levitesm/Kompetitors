@@ -1,0 +1,27 @@
+{
+  "kompetitors2App": {
+    "dialogs": {
+      "home": {
+        "title": "Dialogs",
+        "createLabel": "Создать новый Dialogs",
+        "createOrEditLabel": "Создать или отредактировать Dialogs",
+        "notFound": "No Dialogs found"
+      },
+      "created": "Новый Dialogs создан с идентификатором {{ param }}",
+      "updated": "Dialogs обновлен с идентификатором {{ param }}",
+      "deleted": "Dialogs удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Dialogs {{ id }}?"
+      },
+      "detail": {
+        "title": "Dialogs"
+      },
+      "section": "Section",
+      "topic": "Topic",
+      "message": "Message",
+      "author": "Author",
+      "date": "Date",
+      "competitors": "Competitors"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "dashboard": {
+    "compare": "Comparer",
+    "fight": "Combat!",
+    "choose-company": "Choisissez l'entreprise",
+    "finance": {
+      "tab-name": "Finance",
+      "inferior": "Inférieur à ",
+      "superior": "Supérieur à ",
+      "ebit": "EBIT",
+      "gross-sales": "Chiffre d'affaires",
+      "gross-sales-growth": "Croissance du Chiffre d'affaires",
+      "gross-sales-per-employee": "Chiffre d'affaires par salarié",
+      "net-result": "Résultat net",
+      "net-result-growth": "Croissance du Résultat net",
+      "workforce": "Effectifs",
+      "gross-sales-per-consultant": "Chiffre d'affaires par consultant",
+      "average-pay": "Salaire moyen",
+      "net-result-percent": "Résultat Net en %"
+    },
+    "hr": {
+      "tab-name": "RH",
+      "glassdoor": "Note de Glassdoor",
+      "viadeo": "Note de Viadeo",
+      "efficiency": "Efficacité des recruteurs",
+      "recrNum": "Nombre de recruteurs",
+      "interNum": "Nombre d'entretiens",
+      "cooptationpremiumamount": "Montant de la prime de cooptation\n",
+      "juniorsalary": "Salaire d'un junior à l'embauche"
+    }
+  }
+}

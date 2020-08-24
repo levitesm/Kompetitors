@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <!--
+        Added the constraints for entity EmployeesTypology.
+    -->
+    <changeSet id="20200120120047-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="employee_type_id"
+                                 baseTableName="employees_typology"
+                                 constraintName="fk_employees_typology_employee_type_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="employee_type"/>
+
+        <addForeignKeyConstraint baseColumnNames="competitor_id"
+                                 baseTableName="employees_typology"
+                                 constraintName="fk_employees_typology_competitor_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="competitors"/>
+
+    </changeSet>
+</databaseChangeLog>

@@ -1,0 +1,25 @@
+version: '2'
+services:
+  kompetitors-keycloak:
+    image: jboss/keycloak:7.0.0
+    command:
+      [
+        '-b',
+        '0.0.0.0',
+        '-Dkeycloak.migration.action=import',
+        '-Dkeycloak.migration.provider=dir',
+        '-Dkeycloak.migration.dir=/opt/jboss/keycloak/realm-config',
+        '-Dkeycloak.migration.strategy=IGNORE_EXISTING',
+        '-Djboss.socket.binding.port-offset=1000',
+      ]
+    volumes:
+      - ./src/main/docker/realm-config:/opt/jboss/keycloak/realm-config
+      - ../keycloak-db:/opt/jboss/keycloak/standalone/data
+    environment:
+      - KEYCLOAK_USER=admin
+      - KEYCLOAK_PASSWORD=Ipp()nSimp1ePassw0rd
+      - DB_VENDOR=h2
+    ports:
+      - 9080:9080
+      - 9443:9443
+      - 10990:10990

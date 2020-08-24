@@ -1,0 +1,8 @@
+id;name;description
+2;LEGAL_VIEW;Competitor screen Legal tab view access key
+3;FINANCE_VIEW;Competitor screen Finance tab view access key
+4;CLIENT_VIEW;Competitor screen Client tab view access key
+5;TECH_VIEW;Competitor screen Technical tab view access key
+6;PR_VIEW;Competitor screen PR & Social tab view access key
+7;DELETE_OFFICE;Access key to delete agency button in competitor-legal-locations view
+

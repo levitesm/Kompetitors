@@ -1,0 +1,35 @@
+{
+    "name": "UserGroupRights",
+    "fields": [
+        {
+            "fieldName": "userGroupName",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipName": "accessKey",
+            "otherEntityName": "accessKey",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "name",
+            "otherEntityRelationshipName": "userGroupRights"
+        }
+    ],
+    "changelogDate": "20191021123932",
+    "entityTableName": "user_group_rights",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": [
+        "Kompetitors2"
+    ],
+    "searchEngine": false,
+    "databaseType": "sql"
+}

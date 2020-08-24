@@ -1,0 +1,33 @@
+{
+  "kompetitors2App": {
+    "representatives": {
+      "home": {
+        "title": "Representatives",
+        "createLabel": "Create a new Representatives",
+        "createOrEditLabel": "Create or edit a Representatives",
+        "notFound": "No Representatives found"
+      },
+      "created": "A new Representatives is created with identifier {{ param }}",
+      "updated": "A Representatives is updated with identifier {{ param }}",
+      "deleted": "A Representatives is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Representatives {{ id }}?"
+      },
+      "detail": {
+        "title": "Representatives"
+      },
+      "competitorSiren": "Competitor Siren",
+      "qualite": "Quality",
+      "type": "Type",
+      "fullName": "Name",
+      "nom": "Last name",
+      "prenom": "First name",
+      "nomUsage": "Usage name",
+      "dateNaissance": "Date of birth",
+      "denominationPM": "PM name",
+      "sirenPM": "PM Siren",
+      "linkedInUrl": "LinkedIn",
+      "old": "Old"
+    }
+  }
+}

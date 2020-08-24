@@ -1,0 +1,61 @@
+{
+  "kompetitors2App": {
+    "infogreffe": {
+      "home": {
+        "title": "Infogreffes",
+        "createLabel": "Создать новый Infogreffe",
+        "createOrEditLabel": "Создать или отредактировать Infogreffe",
+        "notFound": "No Infogreffes found"
+      },
+      "created": "Новый Infogreffe создан с идентификатором {{ param }}",
+      "updated": "Infogreffe обновлен с идентификатором {{ param }}",
+      "deleted": "Infogreffe удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Infogreffe {{ id }}?"
+      },
+      "detail": {
+        "title": "Infogreffe"
+      },
+      "departement": "Departement",
+      "ville": "Ville",
+      "numDept": "Num Dept",
+      "codeGreffe": "Code Greffe",
+      "dateImmatriculation": "Date Immatriculation",
+      "ca1": "Ca 1",
+      "siren": "Siren",
+      "ca2": "Ca 2",
+      "formeJuridique": "Forme Juridique",
+      "resultat3": "Resultat 3",
+      "resultat2": "Resultat 2",
+      "resultat1": "Resultat 1",
+      "ficheidentite": "Ficheidentite",
+      "duree1": "Duree 1",
+      "dateDePublication": "Date De Publication",
+      "statut": "Statut",
+      "nic": "Nic",
+      "codeApe": "Code Ape",
+      "adresse": "Adresse",
+      "trancheCaMillesime3": "Tranche Ca Millesime 3",
+      "denomination": "Denomination",
+      "duree2": "Duree 2",
+      "effectif1": "Effectif 1",
+      "effectif3": "Effectif 3",
+      "effectif2": "Effectif 2",
+      "ca3": "Ca 3",
+      "trancheCaMillesime1": "Tranche Ca Millesime 1",
+      "duree3": "Duree 3",
+      "trancheCaMillesime2": "Tranche Ca Millesime 2",
+      "codePostal": "Code Postal",
+      "dateDeClotureExercice1": "Date De Cloture Exercice 1",
+      "dateDeClotureExercice3": "Date De Cloture Exercice 3",
+      "dateDeClotureExercice2": "Date De Cloture Exercice 2",
+      "libelleApe": "Libelle Ape",
+      "greffe": "Greffe",
+      "millesime3": "Millesime 3",
+      "millesime2": "Millesime 2",
+      "millesime1": "Millesime 1",
+      "region": "Region",
+      "competitor": "Competitor"
+    }
+  }
+}

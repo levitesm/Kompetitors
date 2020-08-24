@@ -1,0 +1,36 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "relationships": [
+        {
+            "relationshipName": "employeeType",
+            "otherEntityName": "employeeType",
+            "relationshipType": "many-to-one",
+            "otherEntityField": ""
+        },
+        {
+            "relationshipName": "competitor",
+            "otherEntityName": "competitors",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "value",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "year",
+            "fieldType": "Integer"
+        }
+    ],
+    "changelogDate": "20200120120047",
+    "dto": "mapstruct",
+    "searchEngine": false,
+    "service": "serviceClass",
+    "entityTableName": "employees_typology",
+    "databaseType": "sql",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination"
+}

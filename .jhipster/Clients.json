@@ -1,0 +1,62 @@
+{
+    "name": "Clients",
+    "fields": [
+        {
+            "fieldName": "officeName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "since",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "isIppon",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "updateDate",
+            "fieldType": "LocalDate"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "clientsProjects",
+            "otherEntityRelationshipName": "clients",
+            "relationshipName": "projects"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "listIndustries",
+            "otherEntityRelationshipName": "clients",
+            "relationshipName": "industry",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "offices",
+            "otherEntityRelationshipName": "clients",
+            "relationshipName": "offices",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20191021123901",
+    "entityTableName": "clients",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": [
+        "Kompetitors2"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+  "dashboard": {
+    "compare": "Compare",
+    "fight": "Combat!",
+    "choose-company": "Choose company",
+    "finance": {
+      "tab-name": "Finance",
+      "inferior": "Lower than ",
+      "superior": "Higher than ",
+      "ebit": "EBIT",
+      "gross-sales": "Gross sales",
+      "gross-sales-growth": "Gross sales growth",
+      "gross-sales-per-employee": "Gross sales per employee",
+      "net-result": "Net result",
+      "net-result-growth": "Net result growth",
+      "workforce": "Workforce",
+      "gross-sales-per-consultant": "Gross sales per consultant",
+      "average-pay": "Average pay",
+      "net-result-percent": "Net Result in %"
+    },
+    "hr": {
+      "tab-name": "HR",
+      "glassdoor": "Glassdoor rating",
+      "viadeo": "Viadeo Rating",
+      "efficiency": "Recruiter efficiency",
+      "recrNum": "Recruiters number",
+      "interNum": "Interviews number",
+      "cooptationpremiumamount": "Cooptation premium amount",
+      "juniorsalary": "Junior salary on hire"
+    }
+  }
+}

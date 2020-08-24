@@ -1,0 +1,28 @@
+{
+  "kompetitors2App": {
+    "employeePricing": {
+      "home": {
+        "title": "EmployeePricings",
+        "createLabel": "Créer un nouveau Employee Pricing",
+        "createOrEditLabel": "Créer ou éditer un Employee Pricing",
+        "notFound": "Aucun Employee Pricing trouvé"
+      },
+      "created": "Un nouveau Employee Pricing a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Employee Pricing avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Employee Pricing avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Employee Pricing {{ id }} ?"
+      },
+      "detail": {
+        "title": "Employee Pricing"
+      },
+      "level": "Level",
+      "price": "Price",
+      "currency": "Currency",
+      "paymentType": "Payment Type",
+      "modified": "Modified",
+      "employeeRole": "Employee Role",
+      "competitor": "Competitor"
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+    "name": "Legal",
+    "fields": [
+        {
+            "fieldName": "legalAddress",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "siren",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "greffe",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "founded",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "updateDate",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "legalForm",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "competitors",
+            "otherEntityRelationshipName": "legal",
+            "relationshipName": "competitor",
+            "otherEntityField": "id",
+            "ownerSide": true
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "listOwnerships",
+            "otherEntityRelationshipName": "legal",
+            "relationshipName": "ownership",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "listActivities",
+            "otherEntityRelationshipName": "legal",
+            "relationshipName": "activity",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "listPricings",
+            "otherEntityRelationshipName": "legal",
+            "relationshipName": "pricing",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20191021123909",
+    "entityTableName": "legal",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": [
+        "Kompetitors2"
+    ]
+}

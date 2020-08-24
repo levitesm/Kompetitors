@@ -1,0 +1,32 @@
+{
+    "name": "TechCompetancies",
+    "fields": [],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "listCompetancies",
+            "otherEntityRelationshipName": "techCompetancies",
+            "relationshipName": "value",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "competitors",
+            "otherEntityRelationshipName": "techCompetancies",
+            "relationshipName": "competitor",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20191021123927",
+    "entityTableName": "tech_competancies",
+    "dto": "mapstruct",
+    "pagination": "no",
+    "service": "serviceClass",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": [
+        "Kompetitors2"
+    ]
+}

@@ -1,0 +1,65 @@
+{
+  "kompetitors2App": {
+    "legal": {
+      "home": {
+        "title": "Legals",
+        "createLabel": "Create a new Legal",
+        "createOrEditLabel": "Create or edit a Legal",
+        "notFound": "No Legals found"
+      },
+      "created": "A new Legal is created with identifier {{ param }}",
+      "updated": "A Legal is updated with identifier {{ param }}",
+      "deleted": "A Legal is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Legal {{ id }}?"
+      },
+      "detail": {
+        "title": "Legal"
+      },
+      "legalAddress": "Legal Address",
+      "siren": "Siren",
+      "greffe": "Greffe",
+      "founded": "Founded",
+      "updateDate": "Update Date",
+      "legalForm": "Legal Form",
+      "competitor": "Competitor",
+      "ownership": "Ownership",
+      "activity": "Activity",
+      "pricing": "Pricing",
+      "information": {
+        "info": "Info from Infogreffe",
+        "no-info": "No Information!",
+        "name": "Name",
+        "siren": "Siren",
+        "identity-sheet": "Identity sheet",
+        "registration-date": "Registration date",
+        "legal-form": "Legal form",
+        "ape-code": "APE code",
+        "ape-label": "APE label",
+        "address": "Address",
+        "postal": "Postal Code",
+        "city": "City",
+        "department": "Department",
+        "department-number": "Department number",
+        "region": "Region",
+        "fiscal-year-end": "Fiscal year end",
+        "publication-month": "Month of publication",
+        "month": {
+          "noinformation": "No information available",
+          "january": "January",
+          "february": "February",
+          "march": "March",
+          "april": "April",
+          "may": "May",
+          "june": "June",
+          "july": "July",
+          "august": "August",
+          "september": "September",
+          "october": "October",
+          "november": "November",
+          "december": "December"
+        }
+      }
+    }
+  }
+}

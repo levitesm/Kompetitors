@@ -1,0 +1,22 @@
+{
+  "kompetitors2App": {
+    "listPricings": {
+      "home": {
+        "title": "List Pricings",
+        "createLabel": "Создать новый List Pricings",
+        "createOrEditLabel": "Создать или отредактировать List Pricings",
+        "notFound": "No List Pricings found"
+      },
+      "created": "Новый List Pricings создан с идентификатором {{ param }}",
+      "updated": "List Pricings обновлен с идентификатором {{ param }}",
+      "deleted": "List Pricings удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить List Pricings {{ id }}?"
+      },
+      "detail": {
+        "title": "List Pricings"
+      },
+      "value": "Value"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kompetitors2App": {
+    "externalUrls": {
+      "home": {
+        "title": "External Urls",
+        "createLabel": "Create a new External Urls",
+        "createOrEditLabel": "Create or edit a External Urls",
+        "notFound": "No External Urls found"
+      },
+      "created": "A new External Urls is created with identifier {{ param }}",
+      "updated": "A External Urls is updated with identifier {{ param }}",
+      "deleted": "A External Urls is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete External Urls {{ id }}?"
+      },
+      "detail": {
+        "title": "External Urls"
+      },
+      "facebookUrl": "Facebook Url",
+      "twitterUrl": "Twitter Url",
+      "instagramUrl": "Instagram Url",
+      "youtubeUrl": "Youtube Url",
+      "linkedinUrl": "Linkedin Url",
+      "githubUrl": "Github Url",
+      "blogFeed": "Blog Feed",
+      "googleAlertsFeed": "Google Alerts Feed",
+      "competitor": "Competitor"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kompetitors2App": {
+    "competitiveRates": {
+      "home": {
+        "title": "Competitive Rates",
+        "createLabel": "Создать новый Competitive Rates",
+        "createOrEditLabel": "Создать или отредактировать Competitive Rates",
+        "notFound": "No Competitive Rates found"
+      },
+      "created": "Новый Competitive Rates создан с идентификатором {{ param }}",
+      "updated": "Competitive Rates обновлен с идентификатором {{ param }}",
+      "deleted": "Competitive Rates удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Competitive Rates {{ id }}?"
+      },
+      "detail": {
+        "title": "Competitive Rates"
+      },
+      "totalRate": "Total Rate",
+      "techRate": "Tech Rate",
+      "financeRate": "Finance Rate",
+      "clientsRate": "Clients Rate",
+      "hrRate": "Hr Rate",
+      "competitor": "Competitor"
+    }
+  }
+}

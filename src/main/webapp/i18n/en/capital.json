@@ -1,0 +1,33 @@
+{
+  "kompetitors2App": {
+    "capital": {
+      "home": {
+        "title": "Capitals",
+        "createLabel": "Create a new Capital",
+        "createOrEditLabel": "Create or edit a Capital",
+        "notFound": "No Capitals found"
+      },
+      "created": "A new Capital is created with identifier {{ param }}",
+      "updated": "A Capital is updated with identifier {{ param }}",
+      "deleted": "A Capital is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Capital {{ id }}?"
+      },
+      "detail": {
+        "title": "Capital"
+      },
+      "competitorSiren": "Competitor Siren",
+      "montant": "Amount",
+      "devise": "Currency",
+      "nbrParts": "Number of parts",
+      "pourcentageDetentionPP": "PP percentage of ownership",
+      "pourcentageDetentionPM": "PM percentage of ownership",
+      "listed": "Listed",
+      "privateCapital": "Private equity",
+      "independent": "Independent",
+      "independentC": "Independent C",
+      "independentE": "Independent E",
+      "old": "Old"
+    }
+  }
+}

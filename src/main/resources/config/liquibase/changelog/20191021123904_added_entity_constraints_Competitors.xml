@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <!--
+        Added the constraints for entity Competitors.
+    -->
+    <changeSet id="20191021123904-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="country_id"
+                                 baseTableName="competitors"
+                                 constraintName="fk_competitors_country_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="list_countries"/>
+
+        <addForeignKeyConstraint baseColumnNames="global_groups_id"
+                                 baseTableName="competitors"
+                                 constraintName="fk_competitors_global_groups_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="global_groups"/>
+
+    </changeSet>
+</databaseChangeLog>

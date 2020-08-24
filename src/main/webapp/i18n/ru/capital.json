@@ -1,0 +1,32 @@
+{
+  "kompetitors2App": {
+    "capital": {
+      "home": {
+        "title": "Capitals",
+        "createLabel": "Создать новый Capital",
+        "createOrEditLabel": "Создать или отредактировать Capital",
+        "notFound": "No Capitals found"
+      },
+      "created": "Новый Capital создан с идентификатором {{ param }}",
+      "updated": "Capital обновлен с идентификатором {{ param }}",
+      "deleted": "Capital удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Capital {{ id }}?"
+      },
+      "detail": {
+        "title": "Capital"
+      },
+      "competitorSiren": "Competitor Siren",
+      "montant": "Montant",
+      "devise": "Devise",
+      "nbrParts": "Nbr Parts",
+      "pourcentageDetentionPP": "Pourcentage Detention PP",
+      "pourcentageDetentionPM": "Pourcentage Detention PM",
+      "listed": "Listed",
+      "privateCapital": "Private Capital",
+      "independentC": "Independent C",
+      "independentE": "Independent E",
+      "old": "Old"
+    }
+  }
+}

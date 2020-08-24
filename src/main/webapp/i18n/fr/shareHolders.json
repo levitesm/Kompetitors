@@ -1,0 +1,39 @@
+{
+  "kompetitors2App": {
+    "shareHolders": {
+      "home": {
+        "title": "Actionnaires",
+        "createLabel": "Créer un nouvel Actionnaire",
+        "createOrEditLabel": "Créer ou éditer un Actionnaire",
+        "notFound": "Aucun Actionnaire trouvé"
+      },
+      "created": "Un nouvel Actionnaire a été créé avec l'identifiant {{ param }}",
+      "updated": "L'Actionnaire avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "L'Actionnaire avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer l'Actionnaire {{ id }} ?"
+      },
+      "detail": {
+        "title": "Actionnaires"
+      },
+      "competitorSiren": "Siren du concurrent",
+      "typePersonne": "Type de personne",
+      "physique": "Physique",
+      "morale": "Morale",
+      "denomination": "Dénomination",
+      "civilite": "Civilité",
+      "fullName": "Nom complet",
+      "nomPatronymique": "Nom patronymique",
+      "nomUsage": "Nom d'usage",
+      "prenom": "Prénom",
+      "libelleFormeJuridique": "Libellé forme juridique",
+      "codeFormeJuridique": "Code forme juridique",
+      "siren": "Siren",
+      "codeApe": "Code APE",
+      "dateNaissance": "Date de naissance",
+      "nbrParts": "Nombre de parts",
+      "pourcentageDetention": "Pourcentage de détention",
+      "old": "Ancien"
+    }
+  }
+}

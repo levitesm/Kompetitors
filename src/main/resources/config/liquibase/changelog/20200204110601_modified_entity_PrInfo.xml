@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+
+    <changeSet id="20200204110601-remove" author="shonorov">
+        <dropColumn tableName="pr_info">
+            <column name="fb_number" />
+        </dropColumn>
+        <dropColumn tableName="pr_info">
+            <column name="twitter_number" />
+        </dropColumn>
+        <dropColumn tableName="pr_info">
+            <column name="insta_number" />
+        </dropColumn>
+        <dropColumn tableName="pr_info">
+            <column name="you_numer" />
+        </dropColumn>
+        <dropColumn tableName="pr_info">
+            <column name="linked_number" />
+        </dropColumn>
+    </changeSet>
+</databaseChangeLog>

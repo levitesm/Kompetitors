@@ -1,0 +1,22 @@
+{
+  "kompetitors2App": {
+    "listCompetancies": {
+      "home": {
+        "title": "ListCompetancies",
+        "createLabel": "Créer un nouveau List Competancies",
+        "createOrEditLabel": "Créer ou éditer un List Competancies",
+        "notFound": "Aucun List Competancies trouvé"
+      },
+      "created": "Un nouveau List Competancies a été créé avec l'identifiant {{ param }}",
+      "updated": "Le List Competancies avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le List Competancies avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le List Competancies {{ id }} ?"
+      },
+      "detail": {
+        "title": "List Competancies"
+      },
+      "value": "Value"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+    "name": "ShareHolders",
+    "fields": [
+        {
+            "fieldName": "competitorSiren",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "typePersonne",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "denomination",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "civilite",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "nomPatronymique",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "nomUsage",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "prenom",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "libelleFormeJuridique",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "codeFormeJuridique",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "siren",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "codeApe",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "dateNaissance",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "nbrParts",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "pourcentageDetention",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "old",
+            "fieldType": "Boolean"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20191112075843",
+    "entityTableName": "share_holders",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

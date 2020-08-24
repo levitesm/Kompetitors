@@ -1,0 +1,23 @@
+{
+  "kompetitors2App": {
+    "techInfo": {
+      "home": {
+        "title": "Tech Infos",
+        "createLabel": "Создать новый Tech Info",
+        "createOrEditLabel": "Создать или отредактировать Tech Info",
+        "notFound": "No Tech Infos found"
+      },
+      "created": "Новый Tech Info создан с идентификатором {{ param }}",
+      "updated": "Tech Info обновлен с идентификатором {{ param }}",
+      "deleted": "Tech Info удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Tech Info {{ id }}?"
+      },
+      "detail": {
+        "title": "Tech Info"
+      },
+      "techSpecialistsNumber": "Tech Specialists Number",
+      "competitor": "Competitor"
+    }
+  }
+}

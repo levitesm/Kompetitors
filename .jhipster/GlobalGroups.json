@@ -1,0 +1,47 @@
+{
+    "name": "GlobalGroups",
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "logo",
+            "fieldType": "byte[]",
+            "fieldTypeBlobContent": "any"
+        },
+        {
+            "fieldName": "webSite",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "reference",
+            "fieldType": "Boolean"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "competitors",
+            "otherEntityRelationshipName": "globalGroups",
+            "relationshipName": "competitors"
+        }
+    ],
+    "changelogDate": "20191021123907",
+    "entityTableName": "global_groups",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": [
+        "Kompetitors2"
+    ],
+    "searchEngine": false,
+    "databaseType": "sql"
+}

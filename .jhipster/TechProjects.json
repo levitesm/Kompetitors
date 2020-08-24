@@ -1,0 +1,32 @@
+{
+    "name": "TechProjects",
+    "fields": [],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "listProjectTypes",
+            "otherEntityRelationshipName": "techProjects",
+            "relationshipName": "value",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "competitors",
+            "otherEntityRelationshipName": "techProjects",
+            "relationshipName": "competitor",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20191021123929",
+    "entityTableName": "tech_projects",
+    "dto": "mapstruct",
+    "pagination": "no",
+    "service": "serviceClass",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": [
+        "Kompetitors2"
+    ]
+}

@@ -1,0 +1,21 @@
+version: '2'
+services:
+    kompetitors-app:
+        restart: on-failure
+        build: .
+        environment:
+            - _JAVA_OPTIONS=-Xmx512m -Xms256m
+            - SPRING_PROFILES_ACTIVE=prod,swagger
+            - SPRING_DATASOURCE_URL=jdbc:postgresql://kompetitors-postgresql:5432/Kompetitors2
+            - JHIPSTER_SLEEP=10 # gives time for the database to boot before the application
+        ports:
+            - 8080:8080
+        volumes:
+            - ../attachments/:/home/jhipster/attachments/
+        extra_hosts:
+            - "keycloak.iaas.ippon.fr:10.0.40.5"
+    kompetitors-postgresql:
+        restart: on-failure
+        extends:
+            file: postgresql.yml
+            service: kompetitors-postgresql

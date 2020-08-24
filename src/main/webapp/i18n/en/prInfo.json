@@ -1,0 +1,34 @@
+{
+  "kompetitors2App": {
+    "prInfo": {
+      "home": {
+        "title": "Pr Infos",
+        "createLabel": "Create a new Pr Info",
+        "createOrEditLabel": "Create or edit a Pr Info",
+        "notFound": "No Pr Infos found"
+      },
+      "created": "A new Pr Info is created with identifier {{ param }}",
+      "updated": "A Pr Info is updated with identifier {{ param }}",
+      "deleted": "A Pr Info is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Pr Info {{ id }}?"
+      },
+      "detail": {
+        "title": "Pr Info"
+      },
+      "date": "Date",
+      "marketingWorkforce": "Marketing Workforce",
+      "marketingBudget": "Marketing Budget",
+      "experienceFeedback": "Experience Feedback",
+      "linkedInSubscribers": "Linked In Subscribers",
+      "linkedInEngageRate": "Linked In Engage Rate",
+      "linkedInPostWeek": "Linked In Post Week",
+      "linkedInPostDay": "Linked In Post Day",
+      "twitterFollowers": "Twitter Followers",
+      "twitterPostWeek": "Twitter Post Week",
+      "twitterPostDay": "Twitter Post Day",
+      "instagramFollowers": "Instagram Followers",
+      "competitors": "Competitors"
+    }
+  }
+}

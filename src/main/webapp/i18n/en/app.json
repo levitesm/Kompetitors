@@ -1,0 +1,10 @@
+{
+  "app": {
+    "signin": "Sign in to Kompetitor",
+    "social-networks": "Edit social networks",
+    "competitor-info": "Edit competitor's info",
+    "new-agency": "Add a new Agency",
+    "new-competitor": "Add a new Competitor",
+    "question": "If you don't know where to find the required information, please refer to the Help section at the bottom."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kompetitors2App": {
+    "techCompetancies": {
+      "home": {
+        "title": "TechCompetancies",
+        "createLabel": "Créer un nouveau Tech Competancies",
+        "createOrEditLabel": "Créer ou éditer un Tech Competancies",
+        "notFound": "Aucun Tech Competancies trouvé"
+      },
+      "created": "Un nouveau Tech Competancies a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Tech Competancies avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Tech Competancies avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Tech Competancies {{ id }} ?"
+      },
+      "detail": {
+        "title": "Tech Competancies"
+      },
+      "value": "Value",
+      "competitor": "Competitor"
+    }
+  }
+}

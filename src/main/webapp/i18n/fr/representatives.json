@@ -1,0 +1,33 @@
+{
+  "kompetitors2App": {
+    "representatives": {
+      "home": {
+        "title": "Mandataires",
+        "createLabel": "Créer un nouveau Mandataire",
+        "createOrEditLabel": "Créer ou éditer un Mandataire",
+        "notFound": "Aucun Mandataire trouvé"
+      },
+      "created": "Un nouveau Mandataire a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Mandataire avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Mandataire avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Mandataire {{ id }} ?"
+      },
+      "detail": {
+        "title": "Mandataires"
+      },
+      "competitorSiren": "Siren du concurrent",
+      "qualite": "Qualité",
+      "type": "Type",
+      "fullName": "Nom complet",
+      "nom": "Nom",
+      "prenom": "Prénom",
+      "nomUsage": "Nom d'usage",
+      "dateNaissance": "Date de naissance",
+      "denominationPM": "Dénomination PM",
+      "sirenPM": "Siren PM",
+      "linkedInUrl": "LinkedIn",
+      "old": "Ancien"
+    }
+  }
+}

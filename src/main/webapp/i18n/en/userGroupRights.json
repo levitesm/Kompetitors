@@ -1,0 +1,23 @@
+{
+  "kompetitors2App": {
+    "userGroupRights": {
+      "home": {
+        "title": "User Group Rights",
+        "createLabel": "Create a new User Group Rights",
+        "createOrEditLabel": "Create or edit a User Group Rights",
+        "notFound": "No User Group Rights found"
+      },
+      "created": "A new User Group Rights is created with identifier {{ param }}",
+      "updated": "A User Group Rights is updated with identifier {{ param }}",
+      "deleted": "A User Group Rights is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete User Group Rights {{ id }}?"
+      },
+      "detail": {
+        "title": "User Group Rights"
+      },
+      "userGroupName": "User Group Name",
+      "accessKey": "Access Key"
+    }
+  }
+}

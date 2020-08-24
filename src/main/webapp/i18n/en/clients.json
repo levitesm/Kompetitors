@@ -1,0 +1,29 @@
+{
+  "kompetitors2App": {
+    "clients": {
+      "home": {
+        "title": "Clients",
+        "createLabel": "Create a new Clients",
+        "createOrEditLabel": "Create or edit a Clients",
+        "notFound": "No Clients found"
+      },
+      "created": "A new Clients is created with identifier {{ param }}",
+      "updated": "A Clients is updated with identifier {{ param }}",
+      "deleted": "A Clients is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Clients {{ id }}?"
+      },
+      "detail": {
+        "title": "Clients"
+      },
+      "officeName": "Office Name",
+      "name": "Name",
+      "since": "Since",
+      "isIppon": "Is Ippon",
+      "updateDate": "Update Date",
+      "projects": "Projects",
+      "industry": "Industry",
+      "offices": "Offices"
+    }
+  }
+}

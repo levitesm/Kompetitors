@@ -1,0 +1,28 @@
+{
+  "technology-tab": {
+    "information": {
+      "edit-title": "Edit technologies information",
+      "comp-rate": "Competitive rate",
+      "tech-spec": "Tech specialists",
+      "cto": "CTO",
+      "techCompetancies": "Competencies",
+      "techPractices": "Practices",
+      "techTools": "Services/Tools",
+      "techServices": "Clients services",
+      "techPartners": "Tech partners",
+      "techProjects": "Project types",
+      "name": "Name",
+      "add-techCompetancies": "Add new competency",
+      "add-techPractices": "Add new practice",
+      "add-techTools": "Add new service or tool",
+      "add-techServices": "Add new client service",
+      "add-techPartners": "Add new partner",
+      "add-techProjects": "Add new project type",
+      "cto-head-edit": "Edit technical information",
+      "cto-head-fname": "CTO first name",
+      "cto-head-lname": "CTO last name",
+      "cto-url": "CTO linkedIn page URL",
+      "tech-spec-count": "Tech specialists count"
+    }
+  }
+}

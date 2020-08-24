@@ -1,0 +1,26 @@
+{
+  "kompetitors2App": {
+    "globalGroups": {
+      "home": {
+        "title": "Global Groups",
+        "createLabel": "Создать новый Global Groups",
+        "createOrEditLabel": "Создать или отредактировать Global Groups",
+        "notFound": "No Global Groups found"
+      },
+      "created": "Новый Global Groups создан с идентификатором {{ param }}",
+      "updated": "Global Groups обновлен с идентификатором {{ param }}",
+      "deleted": "Global Groups удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Global Groups {{ id }}?"
+      },
+      "detail": {
+        "title": "Global Groups"
+      },
+      "name": "Name",
+      "logo": "Logo",
+      "webSite": "Web Site",
+      "reference": "Reference",
+      "competitors": "Competitors"
+    }
+  }
+}

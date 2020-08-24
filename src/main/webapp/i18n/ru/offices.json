@@ -1,0 +1,43 @@
+{
+  "kompetitors2App": {
+    "offices": {
+      "home": {
+        "title": "Offices",
+        "createLabel": "Создать новый Offices",
+        "createOrEditLabel": "Создать или отредактировать Offices",
+        "notFound": "No Offices found"
+      },
+      "created": "Новый Offices создан с идентификатором {{ param }}",
+      "updated": "Offices обновлен с идентификатором {{ param }}",
+      "deleted": "Offices удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Offices {{ id }}?"
+      },
+      "detail": {
+        "title": "Offices"
+      },
+      "name": "Name",
+      "address": "Address",
+      "phone": "Phone",
+      "post": "Post",
+      "cityAsText": "City As Text",
+      "numberEmployees": "Number Employees",
+      "numberConsultants": "Number Consultants",
+      "numberTechnicals": "Number Technicals",
+      "numberHR": "Number HR",
+      "numberClients": "Number Clients",
+      "established": "Established",
+      "isMainOffice": "Is Main Office",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "clients": "Clients",
+      "techCompetancies": "Tech Competancies",
+      "techPartners": "Tech Partners",
+      "techProjects": "Tech Projects",
+      "techServices": "Tech Services",
+      "techTools": "Tech Tools",
+      "city": "City",
+      "competitors": "Competitors"
+    }
+  }
+}

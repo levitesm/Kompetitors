@@ -1,0 +1,22 @@
+{
+  "kompetitors2App": {
+    "listCountries": {
+      "home": {
+        "title": "List Countries",
+        "createLabel": "Создать новый List Countries",
+        "createOrEditLabel": "Создать или отредактировать List Countries",
+        "notFound": "No List Countries found"
+      },
+      "created": "Новый List Countries создан с идентификатором {{ param }}",
+      "updated": "List Countries обновлен с идентификатором {{ param }}",
+      "deleted": "List Countries удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить List Countries {{ id }}?"
+      },
+      "detail": {
+        "title": "List Countries"
+      },
+      "value": "Value"
+    }
+  }
+}

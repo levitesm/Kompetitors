@@ -1,0 +1,76 @@
+{
+    "name": "PrInfo",
+    "fields": [
+        {
+            "fieldName": "date",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "marketingWorkforce",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "marketingBudget",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "experienceFeedback",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "linkedInSubscribers",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "linkedInEngageRate",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "linkedInPostWeek",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "linkedInPostDay",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "twitterFollowers",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "twitterPostWeek",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "twitterPostDay",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "instagramFollowers",
+            "fieldType": "Long"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "competitors",
+            "otherEntityRelationshipName": "pr",
+            "relationshipName": "competitors",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20191021123925",
+    "entityTableName": "pr_info",
+    "dto": "mapstruct",
+    "pagination": "no",
+    "service": "serviceClass",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": [
+        "Kompetitors2"
+    ],
+    "searchEngine": false,
+    "databaseType": "sql"
+}

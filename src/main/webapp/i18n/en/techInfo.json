@@ -1,0 +1,23 @@
+{
+  "kompetitors2App": {
+    "techInfo": {
+      "home": {
+        "title": "Tech Infos",
+        "createLabel": "Create a new Tech Info",
+        "createOrEditLabel": "Create or edit a Tech Info",
+        "notFound": "No Tech Infos found"
+      },
+      "created": "A new Tech Info is created with identifier {{ param }}",
+      "updated": "A Tech Info is updated with identifier {{ param }}",
+      "deleted": "A Tech Info is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Tech Info {{ id }}?"
+      },
+      "detail": {
+        "title": "Tech Info"
+      },
+      "techSpecialistsNumber": "Tech Specialists Number",
+      "competitor": "Competitor"
+    }
+  }
+}

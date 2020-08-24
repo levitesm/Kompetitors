@@ -1,0 +1,22 @@
+{
+  "kompetitors2App": {
+    "listActivities": {
+      "home": {
+        "title": "List Activities",
+        "createLabel": "Создать новый List Activities",
+        "createOrEditLabel": "Создать или отредактировать List Activities",
+        "notFound": "No List Activities found"
+      },
+      "created": "Новый List Activities создан с идентификатором {{ param }}",
+      "updated": "List Activities обновлен с идентификатором {{ param }}",
+      "deleted": "List Activities удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить List Activities {{ id }}?"
+      },
+      "detail": {
+        "title": "List Activities"
+      },
+      "value": "Value"
+    }
+  }
+}

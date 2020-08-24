@@ -1,0 +1,23 @@
+{
+  "kompetitors2App": {
+    "techCompetancies": {
+      "home": {
+        "title": "Tech Competancies",
+        "createLabel": "Создать новый Tech Competancies",
+        "createOrEditLabel": "Создать или отредактировать Tech Competancies",
+        "notFound": "No Tech Competancies found"
+      },
+      "created": "Новый Tech Competancies создан с идентификатором {{ param }}",
+      "updated": "Tech Competancies обновлен с идентификатором {{ param }}",
+      "deleted": "Tech Competancies удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Tech Competancies {{ id }}?"
+      },
+      "detail": {
+        "title": "Tech Competancies"
+      },
+      "value": "Value",
+      "competitor": "Competitor"
+    }
+  }
+}

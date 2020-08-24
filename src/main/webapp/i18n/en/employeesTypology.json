@@ -1,0 +1,25 @@
+{
+  "kompetitors2App": {
+    "employeesTypology": {
+      "home": {
+        "title": "Employees Typologies",
+        "createLabel": "Create a new Employees Typology",
+        "createOrEditLabel": "Create or edit a Employees Typology",
+        "notFound": "No Employees Typologies found"
+      },
+      "created": "A new Employees Typology is created with identifier {{ param }}",
+      "updated": "A Employees Typology is updated with identifier {{ param }}",
+      "deleted": "A Employees Typology is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Employees Typology {{ id }}?"
+      },
+      "detail": {
+        "title": "Employees Typology"
+      },
+      "value": "Value",
+      "year": "Year",
+      "employeeType": "Employee Type",
+      "competitor": "Competitor"
+    }
+  }
+}

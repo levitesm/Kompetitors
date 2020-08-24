@@ -1,0 +1,27 @@
+{
+  "kompetitors2App": {
+    "finance": {
+      "home": {
+        "title": "Finances",
+        "createLabel": "Создать новый Finance",
+        "createOrEditLabel": "Создать или отредактировать Finance",
+        "notFound": "No Finances found"
+      },
+      "created": "Новый Finance создан с идентификатором {{ param }}",
+      "updated": "Finance обновлен с идентификатором {{ param }}",
+      "deleted": "Finance удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Finance {{ id }}?"
+      },
+      "detail": {
+        "title": "Finance"
+      },
+      "margin": "Margin",
+      "ebitda": "Ebitda",
+      "occupationRate": "Occupation Rate",
+      "revenue": "Revenue",
+      "year": "Year",
+      "competitors": "Competitors"
+    }
+  }
+}

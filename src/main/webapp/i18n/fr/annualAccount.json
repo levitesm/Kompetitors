@@ -1,0 +1,25 @@
+{
+  "kompetitors2App": {
+    "annualAccount": {
+      "home": {
+        "title": "AnnualAccounts",
+        "createLabel": "Créer un nouveau Annual Account",
+        "createOrEditLabel": "Créer ou éditer un Annual Account",
+        "notFound": "Aucun Annual Account trouvé"
+      },
+      "created": "Un nouveau Annual Account a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Annual Account avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Annual Account avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Annual Account {{ id }} ?"
+      },
+      "detail": {
+        "title": "Annual Account"
+      },
+      "siren": "Siren",
+      "year": "Year",
+      "code": "Code",
+      "value": "Value"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "app": {
+    "signin": "Se connecter à Kompetitor",
+    "social-networks": "Editer les réseaux sociaux",
+    "competitor-info": "Editer un concurrent",
+    "new-agency": "Ajouter une Agence",
+    "new-competitor": "Ajouter un Concurrent",
+    "question": "Si vous ne savez pas où trouver les informations requises, veuillez vous référer à la section Aide en bas."
+  }
+}

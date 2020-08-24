@@ -1,0 +1,23 @@
+{
+  "kompetitors2App": {
+    "techTools": {
+      "home": {
+        "title": "Tech Tools",
+        "createLabel": "Create a new Tech Tools",
+        "createOrEditLabel": "Create or edit a Tech Tools",
+        "notFound": "No Tech Tools found"
+      },
+      "created": "A new Tech Tools is created with identifier {{ param }}",
+      "updated": "A Tech Tools is updated with identifier {{ param }}",
+      "deleted": "A Tech Tools is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Tech Tools {{ id }}?"
+      },
+      "detail": {
+        "title": "Tech Tools"
+      },
+      "value": "Value",
+      "competitor": "Competitor"
+    }
+  }
+}

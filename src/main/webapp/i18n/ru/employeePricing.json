@@ -1,0 +1,28 @@
+{
+  "kompetitors2App": {
+    "employeePricing": {
+      "home": {
+        "title": "Employee Pricings",
+        "createLabel": "Создать новый Employee Pricing",
+        "createOrEditLabel": "Создать или отредактировать Employee Pricing",
+        "notFound": "No Employee Pricings found"
+      },
+      "created": "Новый Employee Pricing создан с идентификатором {{ param }}",
+      "updated": "Employee Pricing обновлен с идентификатором {{ param }}",
+      "deleted": "Employee Pricing удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Employee Pricing {{ id }}?"
+      },
+      "detail": {
+        "title": "Employee Pricing"
+      },
+      "level": "Level",
+      "price": "Price",
+      "currency": "Currency",
+      "paymentType": "Payment Type",
+      "modified": "Modified",
+      "employeeRole": "Employee Role",
+      "competitor": "Competitor"
+    }
+  }
+}

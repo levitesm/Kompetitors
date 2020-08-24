@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <!--
+        Added the constraints for entity Workforce.
+    -->
+    <changeSet id="20200115144435-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="competitor_id"
+                                 baseTableName="workforce"
+                                 constraintName="fk_workforce_competitor_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="competitors"/>
+
+    </changeSet>
+</databaseChangeLog>

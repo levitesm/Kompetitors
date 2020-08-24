@@ -1,0 +1,103 @@
+{
+    "name": "SocieteMain",
+    "fields": [
+        {
+            "fieldName": "siren",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "deno",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "greffe",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "enseigne",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "psiret",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "adresse",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "codepostal",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "normcommune",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "commune",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "ape",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "apetexte",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "dateimmat",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "dcren",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "nationalite",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "formejur",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "capital",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "devisecap",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "typecap",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "url",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "competitors",
+            "otherEntityRelationshipName": "societeMain",
+            "relationshipName": "competitor",
+            "otherEntityField": "id",
+            "ownerSide": true
+        }
+    ],
+    "changelogDate": "20191021123926",
+    "entityTableName": "societe_main",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": [
+        "Kompetitors2"
+    ]
+}

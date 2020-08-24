@@ -1,0 +1,41 @@
+{
+  "kompetitors2App": {
+    "societeMain": {
+      "home": {
+        "title": "Societe Mains",
+        "createLabel": "Create a new Societe Main",
+        "createOrEditLabel": "Create or edit a Societe Main",
+        "notFound": "No Societe Mains found"
+      },
+      "created": "A new Societe Main is created with identifier {{ param }}",
+      "updated": "A Societe Main is updated with identifier {{ param }}",
+      "deleted": "A Societe Main is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Societe Main {{ id }}?"
+      },
+      "detail": {
+        "title": "Societe Main"
+      },
+      "siren": "Siren",
+      "deno": "Deno",
+      "greffe": "Greffe",
+      "enseigne": "Enseigne",
+      "psiret": "Psiret",
+      "adresse": "Adresse",
+      "codepostal": "Codepostal",
+      "normcommune": "Normcommune",
+      "commune": "Commune",
+      "ape": "Ape",
+      "apetexte": "Apetexte",
+      "dateimmat": "Dateimmat",
+      "dcren": "Dcren",
+      "nationalite": "Nationalite",
+      "formejur": "Formejur",
+      "capital": "Capital",
+      "devisecap": "Devisecap",
+      "typecap": "Typecap",
+      "url": "Url",
+      "competitor": "Competitor"
+    }
+  }
+}

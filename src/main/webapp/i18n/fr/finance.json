@@ -1,0 +1,27 @@
+{
+  "kompetitors2App": {
+    "finance": {
+      "home": {
+        "title": "Finances",
+        "createLabel": "Créer une nouvelle Finance",
+        "createOrEditLabel": "Créer ou éditer une Finance",
+        "notFound": "Aucune Finance trouvé"
+      },
+      "created": "Une nouvelle Finance a été créée avec l'identifiant {{ param }}",
+      "updated": "La Finance avec l'identifiant {{ param }} a été mise à jour",
+      "deleted": "La Finance avec l'identifiant {{ param }} a été supprimée",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer la Finance {{ id }} ?"
+      },
+      "detail": {
+        "title": "Finance"
+      },
+      "margin": "Marge",
+      "ebitda": "Ebitda",
+      "occupationRate": "Taux d'occupation",
+      "revenue": "Recettes",
+      "year": "Année",
+      "competitors": "Concurrents"
+    }
+  }
+}

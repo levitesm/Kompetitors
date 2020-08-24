@@ -1,0 +1,23 @@
+{
+  "kompetitors2App": {
+    "techProjects": {
+      "home": {
+        "title": "Tech Projects",
+        "createLabel": "Create a new Tech Projects",
+        "createOrEditLabel": "Create or edit a Tech Projects",
+        "notFound": "No Tech Projects found"
+      },
+      "created": "A new Tech Projects is created with identifier {{ param }}",
+      "updated": "A Tech Projects is updated with identifier {{ param }}",
+      "deleted": "A Tech Projects is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Tech Projects {{ id }}?"
+      },
+      "detail": {
+        "title": "Tech Projects"
+      },
+      "value": "Value",
+      "competitor": "Competitor"
+    }
+  }
+}

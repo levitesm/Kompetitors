@@ -1,0 +1,22 @@
+{
+  "kompetitors2App": {
+    "listCountries": {
+      "home": {
+        "title": "List Countries",
+        "createLabel": "Create a new List Countries",
+        "createOrEditLabel": "Create or edit a List Countries",
+        "notFound": "No List Countries found"
+      },
+      "created": "A new List Countries is created with identifier {{ param }}",
+      "updated": "A List Countries is updated with identifier {{ param }}",
+      "deleted": "A List Countries is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete List Countries {{ id }}?"
+      },
+      "detail": {
+        "title": "List Countries"
+      },
+      "value": "Value"
+    }
+  }
+}

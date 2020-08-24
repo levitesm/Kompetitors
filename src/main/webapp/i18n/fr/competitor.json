@@ -1,0 +1,71 @@
+{
+  "competitor": {
+    "back-button": "Retour aux résultats",
+    "all-agencies": "TOUTES LES AGENCES",
+    "add-agency": "+ AJOUTER UNE AGENCE",
+    "add-company": "+ AJOUTER UNE NOUVELLE ENTREPRISE",
+    "top-main-section": {
+      "phone": "Téléphone: ",
+      "visit-group-website": "Site web groupe",
+      "visit-company-website": "Site web entreprise",
+      "main-agency": "Siège social"
+    },
+    "bottom-main-section": {
+      "clients": "Clients",
+      "revenue": "Revenu",
+      "employees": "Employés",
+      "consultants": "Consultants",
+      "suggest-changes": "Suggérer des changements"
+    },
+    "competitive-rate": "SCORE DE COMPÉTITIVITÉ",
+    "bottom-menu": {
+      "legal": "LÉGAL",
+      "finance": "FINANCE",
+      "clients": "CLIENTS",
+      "technologies": "TECHNOLOGIES",
+      "hr": "RH",
+      "networks": "RÉSEAUX",
+      "info": {
+        "menu": "Informations",
+        "title": "Informations depuis Societe.com",
+        "not-found": "Aucune information trouvée!",
+        "no-finance": "Pas de Finance",
+        "no-clients": "Pas de Clients pour {0}",
+        "no-technologies": "Pas de Technologies pour {0}",
+        "no-hr": "Pas de RH pour {0}",
+        "blog-not-set": "Renseignez l'URL du Blog",
+        "blog-error": "Impossible de récupérer le contenu du Blog"
+      },
+      "dialogs": {
+        "menu": "Discussions",
+        "no-dialogs": "Pas de discussion pour {0}",
+        "add-dialog": "+ Créer une nouvelle discussion",
+        "confirm-add-dialog": "Créer cette discussion",
+        "add-dialog-failure": "Impossible de créer la discussion",
+        "add-cancel": "Annuler",
+        "back": "<- Retour",
+        "new-topic": "Nouveau sujet",
+        "new-comment": "Nouveau commentaire",
+        "commented-by": "Commenté par",
+        "on-date": "le",
+        "at-time": " à ",
+        "comment": "Commentaire",
+        "add-comment": "+ Ajouter un nouveau commentaire",
+        "confirm-add-comment": "Ajouter",
+        "add-comment-failure": "Impossible d'ajouter le commentaire",
+        "quick": "En direct",
+        "for": "pour"
+      }
+    },
+    "establishedIn": "Etabli en {0}",
+    "openedIn": "Ouvert à {0}",
+    "chips": {
+      "transparency": "Transparence",
+      "no-transparency": "Pas de transparence",
+      "listed": "En bourse",
+      "independent": "Indépendants",
+      "private-equity": "Capital privé"
+    },
+    "confirm-delete": "Voulez-vous vraiment supprimer la société? S'il n'y a pas d'autres sociétés dans ce groupe, le groupe sera également supprimé!"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kompetitors2App": {
+    "regionZipList": {
+      "home": {
+        "title": "RegionZipLists",
+        "createLabel": "Créer un nouveau Region Zip List",
+        "createOrEditLabel": "Créer ou éditer un Region Zip List",
+        "notFound": "Aucun Region Zip List trouvé"
+      },
+      "created": "Un nouveau Region Zip List a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Region Zip List avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Region Zip List avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Region Zip List {{ id }} ?"
+      },
+      "detail": {
+        "title": "Region Zip List"
+      },
+      "region": "Region",
+      "zip": "Zip"
+    }
+  }
+}

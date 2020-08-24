@@ -1,0 +1,23 @@
+{
+  "kompetitors2App": {
+    "accessKey": {
+      "home": {
+        "title": "AccessKeys",
+        "createLabel": "Créer un nouveau Access Key",
+        "createOrEditLabel": "Créer ou éditer un Access Key",
+        "notFound": "Aucun Access Key trouvé"
+      },
+      "created": "Un nouveau Access Key a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Access Key avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Access Key avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Access Key {{ id }} ?"
+      },
+      "detail": {
+        "title": "Access Key"
+      },
+      "name": "Name",
+      "description": "Description"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kompetitors2App": {
+    "dialogs": {
+      "home": {
+        "title": "Discussions",
+        "createLabel": "Créer une nouvelle Discussion",
+        "createOrEditLabel": "Créer ou éditer une Discussion",
+        "notFound": "Aucune Discussion trouvé"
+      },
+      "created": "Une nouvelle Discussion a été créée avec l'identifiant {{ param }}",
+      "updated": "La Discussion avec l'identifiant {{ param }} a été mise à jour",
+      "deleted": "La Discussion avec l'identifiant {{ param }} a été supprimée",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer la Discussion {{ id }} ?"
+      },
+      "detail": {
+        "title": "Discussions"
+      },
+      "section": "Section",
+      "topic": "Sujet",
+      "message": "Message",
+      "author": "Auteur",
+      "date": "Date",
+      "competitors": "Concurrents"
+    }
+  }
+}

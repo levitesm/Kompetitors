@@ -1,0 +1,31 @@
+{
+  "navbar": {
+    "search": "Search",
+    "profile": "Ippon Profile",
+    "update": "Last updates",
+    "competitor": {
+      "saved": "Saved competitors",
+      "add": "Add competitor"
+    },
+    "all-competitors": "All competitors",
+    "clear-all": "Clear all",
+    "what": "Competitor Name ?",
+    "where": "City ?",
+    "ippon-profile": "Ippon profile",
+    "dashboard": "Dashboard",
+    "advanced-search": "Advanced search",
+    "number-employees": "Number of employees",
+    "from": "From",
+    "to": "To",
+    "transparency": "Transparency",
+    "any": "Any",
+    "transparent": "Transparent",
+    "not-transparent": "Not transparent",
+    "private-equity": "Private equity",
+    "has-private-equity": "Has private equity",
+    "no-private-equity": "Has no private equity",
+    "listed": "Listed",
+    "not-listed": "Not listed",
+    "show-results": "SHOW RESULTS"
+  }
+}

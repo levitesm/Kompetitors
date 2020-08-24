@@ -1,0 +1,53 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "relationships": [
+        {
+            "relationshipName": "employeeRole",
+            "otherEntityName": "employeeRole",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id",
+            "otherEntityRelationshipName": "employeePricing"
+        },
+        {
+            "relationshipName": "competitor",
+            "otherEntityName": "competitors",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id",
+            "otherEntityRelationshipName": "employeePricing"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "level",
+            "fieldType": "EmployeeLevel",
+            "fieldValues": "JUNIOR,MIDDLE,SENIOR,TRAINEE"
+        },
+        {
+            "fieldName": "price",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "currency",
+            "fieldType": "Currency",
+            "fieldValues": "EUR,USD,RUB,AUD"
+        },
+        {
+            "fieldName": "paymentType",
+            "fieldType": "PaymentType",
+            "fieldValues": "PER_HOUR,PER_DAY"
+        },
+        {
+            "fieldName": "modified",
+            "fieldType": "Instant"
+        }
+    ],
+    "changelogDate": "20191129074005",
+    "dto": "mapstruct",
+    "searchEngine": false,
+    "service": "serviceClass",
+    "entityTableName": "employee_pricing",
+    "databaseType": "sql",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no"
+}

@@ -1,0 +1,22 @@
+{
+  "kompetitors2App": {
+    "listProjectTypes": {
+      "home": {
+        "title": "ListProjectTypes",
+        "createLabel": "Créer un nouveau List Project Types",
+        "createOrEditLabel": "Créer ou éditer un List Project Types",
+        "notFound": "Aucun List Project Types trouvé"
+      },
+      "created": "Un nouveau List Project Types a été créé avec l'identifiant {{ param }}",
+      "updated": "Le List Project Types avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le List Project Types avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le List Project Types {{ id }} ?"
+      },
+      "detail": {
+        "title": "List Project Types"
+      },
+      "value": "Value"
+    }
+  }
+}

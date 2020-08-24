@@ -1,0 +1,87 @@
+{
+    "name": "HrInfo",
+    "fields": [
+        {
+            "fieldName": "interviewsNumber",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "recrutmentTime",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "reviewedCvPercent",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "hrDetails",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "vacanciesUrl",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "hrSpecialistsNumber",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "glassdoorRate",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "viadeoRate",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "glassdoorUrl",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "viadeoUrl",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "cooptationPremiumAmount",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "juniorSalary",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "averageSalary",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "signingIncentives",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "averageContractDuration",
+            "fieldType": "Integer"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "competitors",
+            "otherEntityRelationshipName": "hrInfo",
+            "relationshipName": "competitor",
+            "otherEntityField": "id",
+            "ownerSide": true
+        }
+    ],
+    "changelogDate": "20191021123908",
+    "entityTableName": "hr_info",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*",
+    "searchEngine": false,
+    "databaseType": "sql"
+}

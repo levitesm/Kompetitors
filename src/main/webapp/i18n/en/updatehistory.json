@@ -1,0 +1,26 @@
+{
+  "kompetitors2App": {
+    "updatehistory": {
+      "home": {
+        "title": "Updatehistories",
+        "createLabel": "Create a new Updatehistory",
+        "createOrEditLabel": "Create or edit a Updatehistory",
+        "notFound": "No Updatehistories found"
+      },
+      "created": "A new Updatehistory is created with identifier {{ param }}",
+      "updated": "A Updatehistory is updated with identifier {{ param }}",
+      "deleted": "A Updatehistory is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Updatehistory {{ id }}?"
+      },
+      "detail": {
+        "title": "Updatehistory"
+      },
+      "type": "Type",
+      "siren": "Siren",
+      "date": "Date",
+      "status": "Status",
+      "responce": "Responce"
+    }
+  }
+}

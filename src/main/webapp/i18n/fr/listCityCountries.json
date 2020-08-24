@@ -1,0 +1,22 @@
+{
+  "kompetitors2App": {
+    "listCityCountries": {
+      "home": {
+        "title": "ListCityCountries",
+        "createLabel": "Créer un nouveau List City Countries",
+        "createOrEditLabel": "Créer ou éditer un List City Countries",
+        "notFound": "Aucun List City Countries trouvé"
+      },
+      "created": "Un nouveau List City Countries a été créé avec l'identifiant {{ param }}",
+      "updated": "Le List City Countries avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le List City Countries avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le List City Countries {{ id }} ?"
+      },
+      "detail": {
+        "title": "List City Countries"
+      },
+      "value": "Value"
+    }
+  }
+}

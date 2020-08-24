@@ -1,0 +1,16 @@
+{
+  "add-agency": {
+    "new-agency": "Add a new agency",
+    "edit-agency": "Edit agency",
+    "city": "City:",
+    "postal-code": "Postal code:",
+    "address": "Address:",
+    "phone": "Phone number:",
+    "foundation": "Foundation year:",
+    "employees": "Number of Employees:",
+    "consultants": "Number of Consultants:",
+    "clients": "Number of Clients",
+    "save": "SAVE",
+    "save-failed": "Failed to save!"
+  }
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <!--
+        Added the constraints for entity TechProjects.
+    -->
+    <changeSet id="20191021123929-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="value_id"
+                                 baseTableName="tech_projects"
+                                 constraintName="fk_tech_projects_value_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="list_project_types"/>
+
+        <addForeignKeyConstraint baseColumnNames="offices_id"
+                                 baseTableName="tech_projects"
+                                 constraintName="fk_tech_projects_offices_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="offices"/>
+
+    </changeSet>
+</databaseChangeLog>

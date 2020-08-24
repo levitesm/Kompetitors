@@ -1,0 +1,87 @@
+{
+    "name": "Competitors",
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "webSite",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "countryPhone",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "dialogs",
+            "otherEntityRelationshipName": "competitors",
+            "relationshipName": "dialogs"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "finance",
+            "otherEntityRelationshipName": "competitors",
+            "relationshipName": "finance"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "offices",
+            "otherEntityRelationshipName": "competitors",
+            "relationshipName": "offices"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "people",
+            "otherEntityRelationshipName": "competitors",
+            "relationshipName": "people"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "prInfo",
+            "otherEntityRelationshipName": "competitors",
+            "relationshipName": "pr"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "listCountries",
+            "otherEntityRelationshipName": "competitors",
+            "relationshipName": "country",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "infogreffe",
+            "otherEntityRelationshipName": "competitor",
+            "relationshipName": "infogreffe",
+            "ownerSide": false
+        },
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "societeMain",
+            "otherEntityRelationshipName": "competitor",
+            "relationshipName": "societeMain",
+            "ownerSide": false
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "globalGroups",
+            "otherEntityRelationshipName": "competitors",
+            "relationshipName": "globalGroups",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20191021123904",
+    "entityTableName": "competitors",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

@@ -1,0 +1,23 @@
+{
+  "kompetitors2App": {
+    "techTools": {
+      "home": {
+        "title": "TechTools",
+        "createLabel": "Créer un nouveau Tech Tools",
+        "createOrEditLabel": "Créer ou éditer un Tech Tools",
+        "notFound": "Aucun Tech Tools trouvé"
+      },
+      "created": "Un nouveau Tech Tools a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Tech Tools avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Tech Tools avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Tech Tools {{ id }} ?"
+      },
+      "detail": {
+        "title": "Tech Tools"
+      },
+      "value": "Value",
+      "competitor": "Competitor"
+    }
+  }
+}

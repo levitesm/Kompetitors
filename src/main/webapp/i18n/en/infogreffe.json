@@ -1,0 +1,61 @@
+{
+  "kompetitors2App": {
+    "infogreffe": {
+      "home": {
+        "title": "Infogreffes",
+        "createLabel": "Create a new Infogreffe",
+        "createOrEditLabel": "Create or edit a Infogreffe",
+        "notFound": "No Infogreffes found"
+      },
+      "created": "A new Infogreffe is created with identifier {{ param }}",
+      "updated": "A Infogreffe is updated with identifier {{ param }}",
+      "deleted": "A Infogreffe is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Infogreffe {{ id }}?"
+      },
+      "detail": {
+        "title": "Infogreffe"
+      },
+      "departement": "Department",
+      "ville": "City",
+      "numDept": "Department n°",
+      "codeGreffe": "Greffe code",
+      "dateImmatriculation": "Registration date",
+      "ca1": "CA 1",
+      "siren": "Siren",
+      "ca2": "CA 2",
+      "formeJuridique": "Legal form",
+      "resultat3": "Result 3",
+      "resultat2": "Result 2",
+      "resultat1": "Result 1",
+      "ficheidentite": "Identity card",
+      "duree1": "Duration 1",
+      "dateDePublication": "Publishing date",
+      "statut": "Status",
+      "nic": "NIC",
+      "codeApe": "APE code",
+      "adresse": "Address",
+      "trancheCaMillesime3": "CA mileage slice 3",
+      "denomination": "Designation",
+      "duree2": "Duration 2",
+      "effectif1": "Workforce 1",
+      "effectif3": "Workforce 3",
+      "effectif2": "Workforce 2",
+      "ca3": "CA 3",
+      "trancheCaMillesime1": "CA mileage slice 1",
+      "duree3": "Duration 3",
+      "trancheCaMillesime2": "CA mileage slice 2",
+      "codePostal": "Postcode",
+      "dateDeClotureExercice1": "End date of the financial year 1",
+      "dateDeClotureExercice3": "End date of the financial year 3",
+      "dateDeClotureExercice2": "End date of the financial year 2",
+      "libelleApe": "Label APE",
+      "greffe": "Greffe",
+      "millesime3": "Mileage 3",
+      "millesime2": "Mileage 2",
+      "millesime1": "Mileage 1",
+      "region": "Region",
+      "competitor": "Competitor"
+    }
+  }
+}

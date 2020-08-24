@@ -1,0 +1,39 @@
+{
+  "kompetitors2App": {
+    "shareHolders": {
+      "home": {
+        "title": "Share Holders",
+        "createLabel": "Create a new Share Holders",
+        "createOrEditLabel": "Create or edit a Share Holders",
+        "notFound": "No Share Holders found"
+      },
+      "created": "A new Share Holders is created with identifier {{ param }}",
+      "updated": "A Share Holders is updated with identifier {{ param }}",
+      "deleted": "A Share Holders is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Share Holders {{ id }}?"
+      },
+      "detail": {
+        "title": "Share Holders"
+      },
+      "competitorSiren": "Competitor Siren",
+      "typePersonne": "Type of beneficiary",
+      "physique": "Natural",
+      "morale": "Legal entity",
+      "denomination": "Denomination",
+      "civilite": "Title",
+      "fullName": "Full name",
+      "nomPatronymique": "Patronymic name",
+      "nomUsage": "Usage name",
+      "prenom": "First name",
+      "libelleFormeJuridique": "Legal form label",
+      "codeFormeJuridique": "Legal form code",
+      "siren": "Siren",
+      "codeApe": "APE Code",
+      "dateNaissance": "Date of birth",
+      "nbrParts": "Number of shares",
+      "pourcentageDetention": "Percentage of ownership",
+      "old": "Old"
+    }
+  }
+}

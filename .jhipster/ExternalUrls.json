@@ -1,0 +1,57 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "relationships": [
+        {
+            "relationshipName": "competitor",
+            "otherEntityName": "competitors",
+            "relationshipType": "one-to-one",
+            "otherEntityField": "id",
+            "ownerSide": true,
+            "useJPADerivedIdentifier": false,
+            "otherEntityRelationshipName": "externalUrls"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "facebookUrl",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "twitterUrl",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "instagramUrl",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "youtubeUrl",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "linkedinUrl",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "githubUrl",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "blogFeed",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "googleAlertsFeed",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20200205120457",
+    "dto": "mapstruct",
+    "searchEngine": false,
+    "service": "serviceClass",
+    "entityTableName": "external_urls",
+    "databaseType": "sql",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination"
+}

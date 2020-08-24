@@ -1,0 +1,49 @@
+{
+    "name": "Finance",
+    "fields": [
+        {
+            "fieldName": "margin",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "ebitda",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "occupationRate",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "revenue",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "year",
+            "fieldType": "Integer",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "competitors",
+            "otherEntityRelationshipName": "finance",
+            "relationshipName": "competitors",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20191021123906",
+    "entityTableName": "finance",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": [
+        "Kompetitors2"
+    ]
+}

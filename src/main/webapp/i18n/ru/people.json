@@ -1,0 +1,27 @@
+{
+  "kompetitors2App": {
+    "people": {
+      "home": {
+        "title": "People",
+        "createLabel": "Создать новый People",
+        "createOrEditLabel": "Создать или отредактировать People",
+        "notFound": "No People found"
+      },
+      "created": "Новый People создан с идентификатором {{ param }}",
+      "updated": "People обновлен с идентификатором {{ param }}",
+      "deleted": "People удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить People {{ id }}?"
+      },
+      "detail": {
+        "title": "People"
+      },
+      "fName": "F Name",
+      "lName": "L Name",
+      "title": "Title",
+      "linkedPage": "Linked Page",
+      "isKey": "Is Key",
+      "competitors": "Competitors"
+    }
+  }
+}
